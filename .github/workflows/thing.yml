@@ -37,7 +37,7 @@ jobs:
 
     - name: Generate vpk list
       working-directory: ./kv3bs
-      run: dotnet run list ../depots/1422456/15512936/game/citadel/pak01_dir.vpk > ../vpks_filelist.txt
+      run: dotnet run list ../pak01_dir.vpk > ../vpks_filelist.txt
 
     - name: Download necessary vpks
       run: |
