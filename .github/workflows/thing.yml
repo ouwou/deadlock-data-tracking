@@ -25,6 +25,7 @@ jobs:
     - name: Fetch Deadlock pak index
       run: |
         ./DepotDownloader -app 1422450 -depot 1422456 -username ${{ secrets.STEAMWORKS_USER }} -password ${{ secrets.STEAMWORKS_PASSWORD }} -filelist filelist_pak01_dir.txt
+        find ./depots -type f -exec mv -t . {} +
 
     - name: Install dependencies
       working-directory: ./kv3bs
