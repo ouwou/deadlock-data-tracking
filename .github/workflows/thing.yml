@@ -41,10 +41,11 @@ jobs:
     - name: Download necessary vpks
       run: |
         ./DepotDownloader -app 1422450 -depot 1422456 -username ${{ secrets.STEAMWORKS_USER }} -password ${{ secrets.STEAMWORKS_PASSWORD }} -filelist vpks_filelist.txt
+        find ./depots -type f -exec mv -t . {} +
 
     - name: Extract vdata
       working-directory: ./kv3bs
-      run: dotnet run json ../depots/1422456/15512936/game/citadel/pak01_dir.vpk
+      run: dotnet run json ../pak01_dir.vpk
 
     - name: Organize
       run: |
