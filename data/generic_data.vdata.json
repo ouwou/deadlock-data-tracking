@@ -313,7 +313,8 @@
       "m_StartEffect": "particles/environment/teleporter_pad_start.vpcf",
       "m_EndEffect": "particles/environment/teleporter_pad_end.vpcf",
       "m_strEnterSound": "Teleport.Enter",
-      "m_strStartSound": "Teleport.Buildup"
+      "m_strStartSound": "Teleport.Buildup",
+      "m_strTeleportedSound": "Teleport.Appear"
     },
     "m_CurrencyTypeSounds": {
       "EAbilityPoints": {

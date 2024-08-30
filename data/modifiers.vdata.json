@@ -428,6 +428,12 @@
       "m_eDebuffType": "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY",
       "m_flMoveSpeedBoost": 50.0,
       "m_strParticleEffect": "particles/generic/sprint.vpcf"
+    },
+    "modifier_near_climbable_rope": {
+      "_class": "modifier_near_climbable_rope",
+      "m_bIsHidden": true,
+      "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
+      "m_flEnableStateTime": 0.15
     }
   }
 }

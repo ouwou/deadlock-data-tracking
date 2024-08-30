@@ -60,7 +60,7 @@
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
       "m_flInitialSpawnTime": 180.0,
-      "m_flPrimaryDropChance": 44.0,
+      "m_flPrimaryDropChance": 50.0,
       "_base": "citadel_breakable_prop_base",
       "_not_pickable": 2,
       "m_vecPrimaryPickups": {
@@ -154,7 +154,7 @@
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
       "m_flInitialSpawnTime": 180.0,
-      "m_flPrimaryDropChance": 44.0,
+      "m_flPrimaryDropChance": 50.0,
       "_base": "citadel_breakable_prop_drop_powerups",
       "m_vecPrimaryPickups": {
         "0": {
@@ -726,7 +726,7 @@
       "m_bShowOnMinimap": true,
       "m_sNameLocString": "",
       "m_sPickupSound": "Powerup.Pickup.Gold",
-      "m_nNameOffset": 140
+      "m_nNameOffset": 150
     },
     "small_gold_pickup": {
       "_class": "citadel_breakable_prop_gold_pickup",
@@ -764,7 +764,7 @@
       "m_bShowOnMinimap": true,
       "m_sNameLocString": "gun_powerup_pickup",
       "m_sPickupSound": "Powerup.Pickup.Weapon",
-      "m_nNameOffset": 140,
+      "m_nNameOffset": 150,
       "_base": "citadel_breakable_prop_pickup_base",
       "m_sModifer": {
         "_class": "modifier_base",
@@ -808,7 +808,7 @@
       "m_bShowOnMinimap": true,
       "m_sNameLocString": "survival_powerup_pickup",
       "m_sPickupSound": "Player.Heal.Medium",
-      "m_nNameOffset": 140,
+      "m_nNameOffset": 150,
       "_base": "citadel_breakable_prop_pickup_base",
       "m_sModifer": {
         "_class": "modifier_base",
@@ -852,7 +852,7 @@
       "m_bShowOnMinimap": true,
       "m_sNameLocString": "casting_powerup_pickup",
       "m_sPickupSound": "Powerup.Pickup.Spirit",
-      "m_nNameOffset": 140,
+      "m_nNameOffset": 150,
       "_base": "citadel_breakable_prop_pickup_base",
       "m_sModifer": {
         "_class": "modifier_breakable_prop_cooldown_reduction",
@@ -896,7 +896,7 @@
       "m_bShowOnMinimap": true,
       "m_sNameLocString": "movement_powerup_pickup",
       "m_sPickupSound": "Powerup.Pickup.Speed",
-      "m_nNameOffset": 140,
+      "m_nNameOffset": 150,
       "_base": "citadel_breakable_prop_pickup_base",
       "m_sModifer": {
         "_class": "modifier_breakable_prop_extra_stamina",
