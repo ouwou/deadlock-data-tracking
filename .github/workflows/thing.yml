@@ -54,6 +54,7 @@ jobs:
         cp ./kv3bs/*.vdata.json ./data/
 
     - name: Commit and push
+      continue-on-error: true
       run: |
         git config --global user.name ouwou
         git config --global user.email "26526779+ouwou@users.noreply.github.com"
