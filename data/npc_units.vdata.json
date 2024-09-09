@@ -566,6 +566,7 @@
       "m_flBarrackBossDPS": 80.0,
       "m_flPlayerDPS": 28.0,
       "m_flTrooperDPS": 35.0,
+      "m_sAG2VariationName": "models/npc/trooper_zipline_container/trooper_zipline_container----default.vnmvar",
       "m_TrooperType": "TROOPER_ZIPLINE_CONTAINER",
       "m_mapBoundAbilities": {
         "ESlot_Ability_ZipLine": "citadel_ability_trooper_zip_line"
@@ -1006,7 +1007,7 @@
       "m_flBarrackBossDPS": 80.0,
       "m_flPlayerDPS": 28.0,
       "m_flTrooperDPS": 35.0,
-      "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid_trooper_humanoid.vnmvar",
+      "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid----trooper_humanoid.vnmvar",
       "m_MeleeAttackPoints": {
         "0": 0.3,
         "1": 0.766
@@ -1898,7 +1899,7 @@
         "ESlot_Signature_2": "ability_medic_trooper_heal"
       },
       "m_MedicHealActiveParticle": "particles/trooper/trooper_medic_chargeup.vpcf",
-      "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid_trooper_medic.vnmvar",
+      "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid----trooper_medic.vnmvar",
       "m_MeleeAttackPoints": {
         "0": 0.3
       }
@@ -3003,7 +3004,7 @@
       "m_flPlayerDPS": 28.0,
       "m_flTrooperDPS": 35.0,
       "m_TrooperType": "TROOPER_MELEE",
-      "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid_trooper_melee.vnmvar",
+      "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid----trooper_melee.vnmvar",
       "m_MeleeAttackPoints": {
         "0": 0.4
       }
