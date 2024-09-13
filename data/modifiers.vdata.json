@@ -31,7 +31,8 @@
           },
           "1": {
             "m_eCameraOperation": "k_ECameraOp_Maintain",
-            "m_flMaintainDuration": 5.0
+            "m_flMaintainDuration": 5.0,
+            "m_flMaintainFloat": 300.0
           }
         },
         "m_vecFOVOperations": {
@@ -53,7 +54,9 @@
           "0": {
             "m_eCameraOperation": "k_ECameraOp_Lerp",
             "m_flLerpDuration": 0.25,
-            "m_flLerpBias": 0.702
+            "m_flLerpBias": 0.702,
+            "m_bLerpStartAtCurrent": false,
+            "m_flLerpStart": 300.0
           }
         }
       },
@@ -257,7 +260,7 @@
       "m_bIsHidden": true,
       "m_flShieldImpactEffectDuration": 1.5,
       "_base": "",
-      "flCooldownOnBreak": 60.0
+      "flCooldownOnBreak": 50.0
     },
     "modifier_citadel_disarmed": {
       "_class": "modifier_citadel_disarmed",
@@ -380,7 +383,7 @@
       "m_bIsHidden": true,
       "m_flShieldImpactEffectDuration": 1.5,
       "_base": "modifier_shield_tracker_base",
-      "flCooldownOnBreak": 60.0,
+      "flCooldownOnBreak": 50.0,
       "m_ShieldImpactModifier": {
         "_class": "modifier_bullet_shield_impact",
         "_my_subclass_name": "bullet_shield_impact",
@@ -397,7 +400,7 @@
       "m_bIsHidden": true,
       "m_flShieldImpactEffectDuration": 1.5,
       "_base": "modifier_shield_tracker_base",
-      "flCooldownOnBreak": 60.0,
+      "flCooldownOnBreak": 50.0,
       "eShieldType": "TechShield",
       "m_ShieldImpactModifier": {
         "_class": "modifier_tech_shield_impact",

@@ -597,7 +597,7 @@
         "EMoveAcceleration": 4,
         "ELightMeleeDamage": 63,
         "EHeavyMeleeDamage": 116,
-        "EMaxHealth": 625,
+        "EMaxHealth": 600,
         "EWeaponPower": 0,
         "EReloadSpeed": 1,
         "EWeaponPowerScale": 1,
@@ -1219,10 +1219,9 @@
         "EStaminaRegenPerSecond": 0.2,
         "EAbilityResourceMax": 0,
         "EAbilityResourceRegenPerSecond": 0,
-        "ECritDamageReceivedScale": 0.75,
+        "ECritDamageReceivedScale": 0.65,
         "ETechDuration": 1,
-        "ETechRange": 1,
-        "EBulletArmorDamageReduction": 8.0
+        "ETechRange": 1
       },
       "m_flCollisionRadius": 20,
       "m_flCollisionHeight": 80,
@@ -1707,7 +1706,7 @@
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 3.4,
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
-        "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 1.0
+        "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -1778,49 +1777,6 @@
       "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_gigawatt.vsndevts",
       "m_strRosterRemovedSound": "Gigawatt.VO.HeroRemove",
       "m_strTopBarImage": "file://{images}/hud/hero_portraits/gigwatt_hud.psd",
-      "m_cameraSequenceLatched": {
-        "m_vecDistanceOperations": {
-          "0": {
-            "m_bLerpEndAtDefault": false,
-            "m_flLerpEnd": 150.0,
-            "m_flLerpDuration": 0.3,
-            "m_eCameraOperation": "k_ECameraOp_Lerp"
-          },
-          "1": {
-            "m_flMaintainDuration": -1.0,
-            "m_eCameraOperation": "k_ECameraOp_Maintain"
-          }
-        },
-        "m_vecFOVOperations": {
-          "0": {
-            "m_bLerpEndAtDefault": false,
-            "m_flLerpEnd": 120.0,
-            "m_flLerpDuration": 0.3,
-            "m_eCameraOperation": "k_ECameraOp_Lerp"
-          },
-          "1": {
-            "m_flMaintainDuration": -1.0,
-            "m_eCameraOperation": "k_ECameraOp_Maintain"
-          }
-        }
-      },
-      "m_cameraSequenceAttached": {
-        "m_vecDistanceOperations": {
-          "0": {
-            "m_bLerpEndAtDefault": false,
-            "m_flLerpEnd": 71.0,
-            "m_flLerpDuration": 0.4,
-            "m_eCameraOperation": "k_ECameraOp_Lerp"
-          }
-        },
-        "m_vecFOVOperations": {
-          "0": {
-            "m_flLerpDuration": 5.0,
-            "m_eCameraOperation": "k_ECameraOp_Lerp"
-          }
-        }
-      },
-      "m_cameraSequenceClear": {},
       "m_strUIPortraitMap": "maps/ui/hero_prefabs/gigawatt.vmap",
       "m_RecommendedUpgrades": {
         "0": "upgrade_non_player_bonus",
@@ -8599,7 +8555,7 @@
     "hero_nano": {
       "_class": "CitadelHeroData_t",
       "m_bPlayerSelectable": true,
-      "m_bDisabled": true,
+      "m_bDisabled": false,
       "m_bInDevelopment": true,
       "m_bNeedsTesting": false,
       "m_bAssignedPlayersOnly": false,
@@ -8651,6 +8607,7 @@
         "ESlot_Ability_Innate_1": "citadel_ability_dash",
         "ESlot_Ability_Innate_2": "citadel_ability_sprint",
         "ESlot_Ability_Innate_3": "citadel_ability_melee_parry",
+        "ESlot_Weapon_Secondary": "citadel_weapon_nano_alt",
         "ESlot_Signature_1": "ability_perched_predator",
         "ESlot_Signature_2": "ability_nano_pounce",
         "ESlot_Signature_3": "ability_nano_proximity_ritual",
@@ -9204,7 +9161,8 @@
       },
       "m_strTopBarVertical": "file://{images}/heroes/nano_vertical.psd",
       "m_strUIShopAnimGraph": "models/heroes_staging/nano/nano_v2/ui_shop_nano.vanmgrph",
-      "m_strUIShoppingMap": "maps/ui/hero_shop/nano_shop.vmap"
+      "m_strUIShoppingMap": "maps/ui/hero_shop/nano_shop.vmap",
+      "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_nano.vsndevts"
     },
     "hero_orion": {
       "_class": "CitadelHeroData_t",
@@ -9733,7 +9691,7 @@
         }
       },
       "m_mapStandardLevelUpUpgrades": {
-        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.46,
+        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.8,
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 3.4,
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 27.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
@@ -12779,7 +12737,7 @@
         }
       },
       "m_mapStandardLevelUpUpgrades": {
-        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.31,
+        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.2,
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 3.4,
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
@@ -13352,7 +13310,12 @@
         },
         "m_eWeaponStatDisplay": "EMeleeDamage_DEPRECATED"
       },
-      "m_mapScalingStats": {},
+      "m_mapScalingStats": {
+        "EClipSize": {
+          "eScalingStat": "ETechPower",
+          "flScale": 0.15
+        }
+      },
       "m_heroStatsDisplay": {
         "m_vecHealthHeaderStats": {
           "0": "EMaxHealth",
@@ -14003,7 +13966,7 @@
         }
       },
       "m_mapStandardLevelUpUpgrades": {
-        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.15,
+        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.9,
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 3.4,
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
@@ -19435,7 +19398,7 @@
       "m_nComplexity": 2,
       "m_nReadability": 1,
       "m_HeroID": 52,
-      "m_strModelName": "models/heroes_staging/mirage/mirage.vmdl",
+      "m_strModelName": "models/heroes_staging/mirage/mirage_gen_man.vmdl",
       "m_hDamageTakenParticle": "particles/generic/player_damage_screen.vpcf",
       "m_hGroundDamageTakenParticle": "particles/generic/player_ground_damage_screen.vpcf",
       "m_hDeathParticle": "particles/generic/player_death_screen.vpcf",
@@ -19481,7 +19444,7 @@
         "ESlot_Signature_1": "mirage_tornado",
         "ESlot_Signature_2": "mirage_fire_beetles",
         "ESlot_Signature_3": "mirage_sand_phantom",
-        "ESlot_Signature_4": "mirage_djinns_reach"
+        "ESlot_Signature_4": "mirage_djinn_bomb"
       },
       "m_mapItemSlotInfo": {
         "EItemSlotType_WeaponMod": {
@@ -19937,7 +19900,7 @@
         }
       },
       "m_mapStandardLevelUpUpgrades": {
-        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.7,
+        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.4,
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 3.4,
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
@@ -20002,7 +19965,7 @@
       "m_strIconImageSmall": "file://{images}/heroes/mirage_sm.psd",
       "m_strMinimapImage": "file://{images}/heroes/mirage_mm.psd",
       "m_strTopBarImage": "file://{images}/hud/hero_portraits/mirage_hud.psd",
-      "m_strUIAnimGraph": "models/heroes_staging/mirage/ui_mirage.vanmgrph",
+      "m_strUIAnimGraph": "models/heroes_staging/mirage/ui_shop_mirage_gen_man.vanmgrph",
       "m_strDeathSound": "Player.DeathFemale",
       "m_hGameSoundEventScript": "soundevents/hero/mirage.vsndevts",
       "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_mirage.vsndevts",
@@ -20011,30 +19974,21 @@
       "m_strUIPortraitMap": "maps/ui/hero_prefabs/mirage.vmap",
       "m_strTopBarVertical": "file://{images}/heroes/mirage_vertical.psd",
       "m_RecommendedUpgrades": {
-        "0": "upgrade_clip_size",
-        "1": "upgrade_close_range",
-        "2": "upgrade_magic_reach",
-        "3": "upgrade_endurance",
-        "4": "upgrade_improved_spirit",
-        "5": "upgrade_magic_tempo",
-        "6": "upgrade_fleetfoot_boots",
-        "7": "upgrade_vampire",
-        "8": "upgrade_bullet_armor",
-        "9": "upgrade_cold_front",
-        "10": "upgrade_slowing_bullets",
-        "11": "upgrade_tech_armor",
-        "12": "upgrade_magic_shield",
-        "13": "upgrade_cooldown_reduction",
-        "14": "upgrade_soaring_spirit",
-        "15": "upgrade_close_quarter_combat",
-        "16": "upgrade_tech_purge",
-        "17": "upgrade_damage_recycler",
-        "18": "upgrade_tech_range",
-        "19": "upgrade_mega_spirit",
-        "20": "upgrade_silencer",
-        "21": "upgrade_siphon_bullets"
+        "0": "upgrade_medic_bullets",
+        "1": "upgrade_high_velocity_mag",
+        "2": "upgrade_endurance",
+        "3": "upgrade_improved_spirit",
+        "4": "upgrade_vampire",
+        "5": "upgrade_fleetfoot_boots",
+        "6": "upgrade_berserker",
+        "7": "upgrade_arcane_extension",
+        "8": "upgrade_magic_tempo",
+        "9": "upgrade_suppressor",
+        "10": "upgrade_magic_shield",
+        "11": "upgrade_magic_slow",
+        "12": "upgrade_surging_power"
       },
-      "m_strUIShopAnimGraph": "models/heroes_staging/mirage/ui_shop_mirage.vanmgrph",
+      "m_strUIShopAnimGraph": "models/heroes_staging/mirage/ui_shop_mirage_gen_man.vanmgrph",
       "m_strUIShoppingMap": "maps/ui/hero_shop/mirage_shop.vmap"
     },
     "hero_slork": {

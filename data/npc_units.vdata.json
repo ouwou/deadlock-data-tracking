@@ -321,8 +321,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -539,8 +539,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "",
       "m_strLastHitSound": "",
@@ -762,8 +762,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -980,8 +980,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -1203,8 +1203,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -1421,8 +1421,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -1644,8 +1644,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -1811,7 +1811,7 @@
       },
       "_base": "trooper_medic",
       "_class": "npc_trooper",
-      "m_sModelName": "models/npc/medic/medic_model.vmdl",
+      "m_sModelName": "models/animgraph2/trooper_medic/trooper_medic.vmdl",
       "m_nMaxHealth": 260,
       "m_flSightRangePlayers": 700.0,
       "m_flSightRangeNPCs": 1600.0,
@@ -1867,8 +1867,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -2094,8 +2094,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -2313,8 +2313,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -2538,7 +2538,7 @@
         "2": 125
       },
       "m_MeleeSwingParticle": "particles/npc/npc_melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/npc/npc_melee_activate.vpcf",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -2758,7 +2758,7 @@
         "2": 125
       },
       "m_MeleeSwingParticle": "particles/npc/npc_melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/npc/npc_melee_activate.vpcf",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -2977,7 +2977,7 @@
         "2": 125
       },
       "m_MeleeSwingParticle": "particles/npc/npc_melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/npc/npc_melee_activate.vpcf",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -3200,7 +3200,7 @@
         "2": 125
       },
       "m_MeleeSwingParticle": "particles/npc/npc_melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/npc/npc_melee_activate.vpcf",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -3418,8 +3418,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -3636,8 +3636,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -3871,8 +3871,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -4146,8 +4146,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -4403,6 +4403,181 @@
         "m_nAttributes": "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
       },
       "m_flDyingDuration": 1.4
+    },
+    "npc_super_neutral_herotest": {
+      "m_WeaponInfo": {
+        "m_Spread": 0.5,
+        "m_StandingSpread": 1.5,
+        "m_flScatterYawScale": 1,
+        "m_flShootingUpSpreadPenalty": 5,
+        "m_flZoomMoveSpeedPercent": 0.7,
+        "m_flShootMoveSpeedPercent": 0.7,
+        "m_flHorizontalPunch": 0,
+        "m_flVerticalPunch": 0,
+        "m_flRecoilRecoverySpeed": 10.0,
+        "m_VerticallRecoil": {
+          "m_Range": {
+            "0": -0.2,
+            "1": 0.2
+          },
+          "m_flBurstSlope": 0.0,
+          "m_flBurstExponent": 0.0,
+          "m_flBurstConstant": 0.0
+        },
+        "m_HorizontalRecoil": {
+          "m_Range": {
+            "0": -0.1,
+            "1": 0.1
+          },
+          "m_flBurstExponent": 0.0
+        },
+        "m_flRecoilSpeed": 1,
+        "m_flZoomFOV": 40.0,
+        "m_flDamageFalloffStartRange": 1500,
+        "m_flDamageFalloffEndRange": 1500,
+        "m_flRange": 1500,
+        "m_flBulletLifetime": 2,
+        "m_flDamageFalloffEndScale": 0.3,
+        "m_flDamageFalloffBias": 0.5,
+        "m_iBullets": 1,
+        "m_flCycleTime": 0.5,
+        "m_reloadDuration": 0.25,
+        "m_iClipSize": -1,
+        "m_iBurstShotCount": 1,
+        "m_flBurstShotCooldown": 0,
+        "m_flBulletGravityScale": 0.0,
+        "m_flBulletRadius": 3,
+        "m_flBulletDrag": 1,
+        "m_flBulletDragBias": 0.5,
+        "m_flBulletReflectScale": 0,
+        "m_flBulletReflectAmount": 1,
+        "m_flBulletInheritShooterVelocityScale": 0,
+        "m_szBulletTravelTracerParticle": "particles/weapon_fx/trooper/trooper_bullet_travel.vpcf",
+        "m_szMuzzleFlashEffectName": "particles/dev/bullet_debug_muzzle_flash.vpcf",
+        "m_strShootSound": "TrooperRifle.Fire",
+        "m_strBulletWhizSound": "Base.Bullet.Whizby",
+        "m_BulletSpeedCurve": {
+          "m_spline": {
+            "0": {
+              "x": 0.0,
+              "y": 13000.0,
+              "m_flSlopeIncoming": 0.0,
+              "m_flSlopeOutgoing": 0.0
+            },
+            "1": {
+              "x": 100.0,
+              "y": 13000.0,
+              "m_flSlopeIncoming": 0.0,
+              "m_flSlopeOutgoing": 0.0
+            }
+          },
+          "m_tangents": {
+            "0": {
+              "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+              "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+            },
+            "1": {
+              "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+              "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+            }
+          },
+          "m_vDomainMins": {
+            "0": 0.0,
+            "1": 1.0
+          },
+          "m_vDomainMaxs": {
+            "0": 100.0,
+            "1": 13000.0
+          }
+        },
+        "m_mapImpactEffects": {
+          "default": {
+            "m_strDecal": "Impact.Concrete",
+            "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+            "m_strSound": "Default.BulletImpact"
+          },
+          "flesh": {
+            "m_strDecal": "",
+            "m_strParticle": "particles/blood_impact/blood_impact_red_01.vpcf",
+            "m_strSound": "Flesh.BulletImpact"
+          },
+          "concrete": {
+            "m_strDecal": "Impact.Concrete",
+            "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+            "m_strSound": "Concrete.BulletImpact"
+          },
+          "solidmetal": {
+            "m_strDecal": "Impact.Concrete",
+            "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+            "m_strSound": "SolidMetal.BulletImpact"
+          },
+          "portals": {
+            "m_strDecal": "Impact.Concrete",
+            "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+            "m_strSound": "Player.HitInvuln"
+          }
+        },
+        "m_flCritBonusStart": 1.15,
+        "m_flCritBonusEnd": 1.35,
+        "m_flCritBonusStartRange": 500.0,
+        "m_flCritBonusEndRange": 1500.0,
+        "m_flCritBonusAgainstNPCs": 0.25,
+        "m_flShootSpreadPenaltyPerShot": 0.0,
+        "m_flShootSpreadPenaltyDecayDelay": 0.0,
+        "m_flShootSpreadPenaltyDecay": 2.0,
+        "m_flRecoilShotIndexRecoveryTimeFactor": 0.25,
+        "m_bCanZoom": true,
+        "m_strWeaponImpactEffect": "particles/weapon_fx/default_tracer_impact.vpcf",
+        "m_flReloadMoveSpeed": 236.22,
+        "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Default",
+        "m_flAutoReplenishClip": 4,
+        "m_NpcAimingSpread": {
+          "0": 0.2,
+          "1": 0.6
+        },
+        "m_flBulletDamage": 3.0
+      },
+      "_base": "neutral_trooper_weak",
+      "_class": "npc_super_neutral_herotest",
+      "m_ShieldParticle": "",
+      "m_flSightRangePlayers": 500.0,
+      "m_flMaxHealthBarDrawDistance": 800,
+      "m_flShieldReactivateDelay": 2.0,
+      "m_flGoldReward": 44,
+      "m_flGoldRewardBonusPercentPerMinute": 1.2,
+      "m_strLastHitSound": "LastHit.Default",
+      "m_sModelName": "models/npc/midboss/midboss.vmdl",
+      "m_flModelScale": 0.28,
+      "m_nMaxHealth": 200,
+      "m_hFootstepSounds": "citadel",
+      "m_sDefaultMaterialGroupName": "Neutral_Weak",
+      "m_flHealthBarOffset": 500,
+      "m_bCapSimultanousAttackers": true,
+      "m_bFaceEnemyWhileIdle": true,
+      "m_flPhysicsImpulseMultiplier": 0.0,
+      "m_DeathParticle": "particles/npc/neutral_trooper_death.vpcf",
+      "m_vecIntrinsicModifiers": {
+        "0": {
+          "_my_subclass_name": "weak_neutral_bullet_armor",
+          "_class": "modifier_intrinsic_base",
+          "m_mapAutoRegisterModifierValueFromAbilityPropertyName": {},
+          "m_vecScriptValues": {
+            "0": {
+              "m_eModifierValue": "MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_PERCENT",
+              "m_value": 50.0
+            },
+            "1": {
+              "m_eModifierValue": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
+              "m_value": 30.0
+            }
+          }
+        }
+      },
+      "m_eTrooperType": "NEUTRAL_TROOPER_WEAK",
+      "m_flHullCapsuleRadius": 90.0,
+      "m_flHullCapsuleHeight": 130.0,
+      "m_flSightRangeNPCs": 500.0,
+      "m_iStartingHealth": 100
     },
     "neutral_base": {
       "m_WeaponInfo": {
@@ -5543,7 +5718,7 @@
               "m_value": 35.0
             }
           },
-          "m_strParticleEffect": "particles/npc/neutral_strong_ambient_flame.vpcf"
+          "m_strParticleEffect": ""
         }
       },
       "m_eTrooperType": "NEUTRAL_TROOPER_STRONG",
@@ -5724,7 +5899,7 @@
               "m_value": 35.0
             }
           },
-          "m_strParticleEffect": "particles/npc/neutral_strong_ambient_flame.vpcf"
+          "m_strParticleEffect": ""
         }
       },
       "m_eTrooperType": "NEUTRAL_TROOPER_STRONG",
@@ -6968,8 +7143,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -7193,7 +7368,7 @@
         "2": 125
       },
       "m_MeleeSwingParticle": "particles/npc/npc_melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/npc/npc_melee_activate.vpcf",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",
@@ -7412,8 +7587,8 @@
         "1": 125,
         "2": 125
       },
-      "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-      "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+      "m_MeleeSwingParticle": "",
+      "m_MeleeActivateParticle": "",
       "m_MeleeAnimName": "b_melee",
       "m_LastHitParticle": "particles/generic/last_hit.vpcf",
       "m_strLastHitSound": "LastHit.Default",

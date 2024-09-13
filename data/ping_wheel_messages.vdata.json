@@ -75,7 +75,7 @@
       "m_eSliceType": "CITADEL_PING_WHEEL_SUBNAV_ONE_SLICE",
       "m_vecSubnavMessageNames": {
         "0": "Defend Blue",
-        "1": "Defend Orange",
+        "1": "Defend Green",
         "2": "Defend Purple",
         "3": "Defend Yellow"
       },
@@ -89,13 +89,13 @@
       "m_ePingConcept": "CITADEL_PING_DEFEND_LANE",
       "m_eLaneColor": "k_ELaneColor_Yellow"
     },
-    "Defend Orange": {
+    "Defend Green": {
       "m_bIsSubnavMessage": true,
-      "m_strLabelToken": "#citadel_chatwheel_message_Defend_Orange",
-      "m_strMessageToken": "#citadel_chatwheel_message_Defend_Orange",
+      "m_strLabelToken": "#citadel_chatwheel_message_Defend_Green",
+      "m_strMessageToken": "#citadel_chatwheel_message_Defend_Green",
       "m_unPingWheelOptionID": 9,
       "m_ePingConcept": "CITADEL_PING_DEFEND_LANE",
-      "m_eLaneColor": "k_ELaneColor_Orange"
+      "m_eLaneColor": "k_ELaneColor_Green"
     },
     "Defend Blue": {
       "m_bIsSubnavMessage": true,
@@ -194,7 +194,7 @@
       "m_eSliceType": "CITADEL_PING_WHEEL_SUBNAV_ONE_SLICE",
       "m_vecSubnavMessageNames": {
         "0": "Push Blue",
-        "1": "Push Orange",
+        "1": "Push Green",
         "2": "Push Purple",
         "3": "Push Yellow"
       },
@@ -211,14 +211,14 @@
       "m_eLaneColor": "k_ELaneColor_Yellow",
       "m_flPhraseTopMarginOffset": 30.0
     },
-    "Push Orange": {
+    "Push Green": {
       "m_unPingWheelOptionID": 26,
       "m_ePingMarkerInfo": "k_EPingMarkerInfo_HideMarkerAndSound",
-      "m_strLabelToken": "#citadel_chatwheel_push_orange",
-      "m_strMessageToken": "#citadel_chatwheel_push_orange",
+      "m_strLabelToken": "#citadel_chatwheel_push_green",
+      "m_strMessageToken": "#citadel_chatwheel_push_green",
       "m_bIsSubnavMessage": true,
       "m_ePingConcept": "CITADEL_PING_PUSH_LANE",
-      "m_eLaneColor": "k_ELaneColor_Orange",
+      "m_eLaneColor": "k_ELaneColor_Green",
       "m_flPhraseTopMarginOffset": 30.0
     },
     "Push Blue": {
@@ -310,13 +310,13 @@
       "m_bIsSubnavMessage": true,
       "m_flPhraseTopMarginOffset": 30.0
     },
-    "Heading to Orange Subnav": {
+    "Heading to Green Subnav": {
       "m_unPingWheelOptionID": 39,
       "m_ePingConcept": "CITADEL_PING_HEADING_TO_LANE",
       "m_ePingMarkerInfo": "k_EPingMarkerInfo_ShowMarkerOnSender",
-      "m_eLaneColor": "k_ELaneColor_Orange",
-      "m_strMessageToken": "#citadel_chatwheel_message_HeadedToOrange",
-      "m_strLabelToken": "#citadel_chatwheel_message_HeadedToOrange",
+      "m_eLaneColor": "k_ELaneColor_Green",
+      "m_strMessageToken": "#citadel_chatwheel_message_HeadedToGreen",
+      "m_strLabelToken": "#citadel_chatwheel_message_HeadedToGreen",
       "m_strIcon": "file://{images}/hud/ping/ping_icon_going_in.svg",
       "m_bIsSubnavMessage": true,
       "m_flPhraseTopMarginOffset": 30.0
@@ -346,7 +346,7 @@
       "m_eSliceType": "CITADEL_PING_WHEEL_SUBNAV_ONE_SLICE",
       "m_vecSubnavMessageNames": {
         "0": "Heading to Yellow Subnav",
-        "1": "Heading to Orange Subnav",
+        "1": "Heading to Green Subnav",
         "2": "Headed to Blue Subnav",
         "3": "Headed to Purple Subnav"
       },
