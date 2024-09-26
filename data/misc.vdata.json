@@ -767,7 +767,7 @@
       "m_nNameOffset": 150,
       "_base": "citadel_breakable_prop_pickup_base",
       "m_sModifer": {
-        "_class": "modifier_base",
+        "_class": "modifier_citadel_powerup",
         "_my_subclass_name": "gun_powerup_pickup",
         "m_flDuration": 160.0,
         "m_vecScriptValues": {
@@ -781,7 +781,6 @@
           }
         },
         "m_sLocalizationName": "gun_powerup_pickup",
-        "m_strHudMessageText": "#gun_powerup_pickup",
         "m_vecAlwaysShowInStatModifierUI": {
           "0": "MODIFIER_VALUE_FIRE_RATE",
           "1": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
@@ -811,7 +810,7 @@
       "m_nNameOffset": 150,
       "_base": "citadel_breakable_prop_pickup_base",
       "m_sModifer": {
-        "_class": "modifier_base",
+        "_class": "modifier_citadel_powerup",
         "_my_subclass_name": "survival_powerup_pickup",
         "m_flDuration": 160.0,
         "m_vecScriptValues": {
@@ -825,7 +824,6 @@
           }
         },
         "m_sLocalizationName": "survival_powerup_pickup",
-        "m_strHudMessageText": "#survival_powerup_pickup",
         "m_vecAlwaysShowInStatModifierUI": {
           "0": "MODIFIER_VALUE_HEALTH_MAX",
           "1": "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND"
@@ -869,7 +867,6 @@
           }
         },
         "m_sLocalizationName": "casting_powerup_pickup",
-        "m_strHudMessageText": "#casting_powerup_pickup",
         "m_vecAlwaysShowInStatModifierUI": {
           "0": "MODIFIER_VALUE_TECH_POWER",
           "1": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
@@ -927,7 +924,6 @@
           "2": "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE"
         },
         "m_sLocalizationName": "movement_powerup_pickup",
-        "m_strHudMessageText": "#movement_powerup_pickup",
         "m_eDebuffType": "MODIFIER_DEBUFF_NO",
         "m_strHudIcon": "file://{images}/hud/modifiers/icon_powerup.svg"
       },
@@ -978,8 +974,7 @@
             "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
             "m_value": 2.0
           }
-        },
-        "m_strHudMessageText": "#spirit_permanent_pickup_label"
+        }
       },
       "m_sDefaultMaterialGroupName": "purple",
       "m_Color": {
@@ -1011,8 +1006,7 @@
             "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
             "m_value": 3.0
           }
-        },
-        "m_strHudMessageText": "#spirit_permanent_pickup_label_lv2"
+        }
       },
       "m_sDefaultMaterialGroupName": "purple",
       "m_Color": {
@@ -1045,7 +1039,6 @@
             "m_value": 1.5
           }
         },
-        "m_strHudMessageText": "#firerate_permanent_pickup_label",
         "m_strSmallIconCssClass": "fire_rate"
       },
       "m_sDefaultMaterialGroupName": "red",
@@ -1079,7 +1072,6 @@
             "m_value": 2.0
           }
         },
-        "m_strHudMessageText": "#firerate_permanent_pickup_label_lv2",
         "m_strSmallIconCssClass": "fire_rate"
       },
       "m_sDefaultMaterialGroupName": "red",
@@ -1113,7 +1105,6 @@
             "m_value": 4
           }
         },
-        "m_strHudMessageText": "#ammo_permanent_pickup_label",
         "m_strSmallIconCssClass": "ammoIncrease"
       },
       "m_sDefaultMaterialGroupName": "orange",
@@ -1147,7 +1138,6 @@
             "m_value": 6
           }
         },
-        "m_strHudMessageText": "#ammo_permanent_pickup_label_lv2",
         "m_strSmallIconCssClass": "ammoIncrease"
       },
       "m_sDefaultMaterialGroupName": "orange",
@@ -1180,8 +1170,7 @@
             "m_eModifierValue": "MODIFIER_VALUE_HEALTH_MAX",
             "m_value": 15
           }
-        },
-        "m_strHudMessageText": "#hp_permanent_pickup_label"
+        }
       },
       "m_sDefaultMaterialGroupName": "green",
       "m_Color": {
@@ -1213,8 +1202,7 @@
             "m_eModifierValue": "MODIFIER_VALUE_HEALTH_MAX",
             "m_value": 20
           }
-        },
-        "m_strHudMessageText": "#hp_permanent_pickup_label_lv2"
+        }
       },
       "m_sDefaultMaterialGroupName": "green",
       "m_Color": {
@@ -1247,7 +1235,6 @@
             "m_value": 0.75
           }
         },
-        "m_strHudMessageText": "#cd_permanent_pickup_label",
         "m_strSmallIconCssClass": "cooldownReduction"
       },
       "m_sDefaultMaterialGroupName": "blue",
@@ -1281,7 +1268,6 @@
             "m_value": 1.0
           }
         },
-        "m_strHudMessageText": "#cd_permanent_pickup_label_lv2",
         "m_strSmallIconCssClass": "cooldownReduction"
       },
       "m_sDefaultMaterialGroupName": "blue",
@@ -1314,8 +1300,7 @@
             "m_eModifierValue": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
             "m_value": 3
           }
-        },
-        "m_strHudMessageText": "#wp_permanent_pickup_label"
+        }
       },
       "m_sDefaultMaterialGroupName": "orange",
       "m_Color": {
@@ -1347,8 +1332,7 @@
             "m_eModifierValue": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
             "m_value": 4
           }
-        },
-        "m_strHudMessageText": "#wp_permanent_pickup_label_lv2"
+        }
       },
       "m_sDefaultMaterialGroupName": "orange",
       "m_Color": {
@@ -1569,11 +1553,56 @@
       "m_flOrbClaimWindow": 0,
       "_base": "xp_orb"
     },
+    "xp_orb_spawner": {
+      "_class": "item_xp",
+      "m_sOrbModel": "",
+      "m_sFriendlyGlowParticle": "particles/generic/spirit_orb_ambient.vpcf",
+      "m_sEnemyGlowParticle": "particles/generic/spirit_orb_ambient_enemy.vpcf",
+      "m_sGoldReceivedParticle": "particles/items/gold_received.vpcf",
+      "m_sFriendlyOrbDeniedParticle": "particles/generic/spirit_xp_denied_enemy.vpcf",
+      "m_sEnemyOrbDeniedParticle": "particles/generic/spirit_xp_denied.vpcf",
+      "m_sFriendlyOrbEarnedParticle": "particles/generic/spirit_xp_earned.vpcf",
+      "m_sEnemyOrbEarnedParticle": "particles/generic/spirit_xp_earned_enemy.vpcf",
+      "m_flOrbSpawnDelayMin": 0.4,
+      "m_flOrbSpawnDelayMax": 0.7,
+      "m_flOrbSpawnOffsetZ": 8,
+      "m_flOrbSpawnOffsetRandomXYZ": 64,
+      "m_flGravityScale": 0.0,
+      "m_flLateralSpeedMin": 40.0,
+      "m_flLateralSpeedMax": 40.0,
+      "m_flUpSpeedMin": 65.0,
+      "m_flUpSpeedMax": 65.0,
+      "m_flOscillateFrequency": 0.01,
+      "m_flLifeTime": 2.0,
+      "m_flCollisionRadius": 12.0,
+      "m_flBurstSpeedMultiplier": 2.0,
+      "m_flBurstSpeedDuration": 0.2,
+      "m_flInvulDuration": 0.2,
+      "m_strOrbClaimed": "Player.ClaimOrb",
+      "m_strOrbClaimedTeammate": "Teammate.ClaimOrb",
+      "m_strOrbDenied": "Player.Deny",
+      "m_strOrbDeniedPlayer": "Player.Denied",
+      "m_bUseKillerPlaneOffsets": true,
+      "m_flKillerPlaneOffset": 15.0,
+      "m_flOrbClaimWindow": 0.1,
+      "_base": "xp_orb_trooper",
+      "m_flKillerPlaneHorizontalDecayRate": 15.0,
+      "m_flLateralMoveDuration": 0.3,
+      "m_flKillerPlaneHorizontalSpeedX": 65.0,
+      "m_flKillerPlaneHorizontalSpeedY": 55.0,
+      "m_flKillerPlaneVerticalSpeed": 115.0,
+      "m_flKillerPlaneSpeedNoise": 10.0,
+      "m_flKillerPlaneLaunchOffset": 15.0,
+      "m_flKillerPlaneLaunchDelay": 0.1
+    },
     "citadel_herotest_orbspawner": {
       "m_hModel": "models/npc/sewer_beast/sewer.vmdl",
       "m_flModelScale": 1.5,
       "m_AmbientParticle": "particles/environment/powerup_spawner_inactive_ambient.vpcf",
-      "m_SpawnParticle": "particles/trooper/trooper_death_sn.vpcf"
+      "m_SpawnParticle": "particles/trooper/trooper_death_sn.vpcf",
+      "m_iGoldValue": 10,
+      "m_flSpawnRate": 2.0,
+      "m_flFirstSpawnTime": 180.0
     },
     "info_neutral_trooper_camp": {
       "_class": "info_neutral_trooper_camp",

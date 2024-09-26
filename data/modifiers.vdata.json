@@ -20,6 +20,7 @@
       "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
       "m_strSmallIconCssClass": "stunned",
       "m_bKeepMaximumDurationOnRefresh": true,
+      "m_flGravityScale": 2.0,
       "m_cameraSequenceCreated": {
         "m_vecDistanceOperations": {
           "0": {

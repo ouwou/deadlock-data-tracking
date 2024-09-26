@@ -271,7 +271,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -489,7 +489,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 0,
@@ -712,7 +712,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -930,7 +930,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -1153,7 +1153,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -1371,7 +1371,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -1594,7 +1594,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -1817,7 +1817,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -2044,7 +2044,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 55.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -2263,7 +2263,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 55.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -2487,7 +2487,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 55.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -2707,7 +2707,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -2926,7 +2926,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -3149,7 +3149,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -3586,7 +3586,7 @@
       "m_flSightRangeNPCs": 1500.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -3661,7 +3661,7 @@
       "m_flT3BossDPS": 80.0,
       "m_flGeneratorBossDPS": 22,
       "m_flBarrackBossDPS": 80.0,
-      "m_flPlayerDPS": 28.0,
+      "m_flPlayerDPS": 88.0,
       "m_flTrooperDPS": 35.0,
       "m_flModelScale": 1.0,
       "m_navHull": 1,
@@ -3821,7 +3821,7 @@
       "m_flSightRangeNPCs": 1500.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -3896,7 +3896,7 @@
       "m_flT3BossDPS": 80.0,
       "m_flGeneratorBossDPS": 22,
       "m_flBarrackBossDPS": 80.0,
-      "m_flPlayerDPS": 28.0,
+      "m_flPlayerDPS": 88.0,
       "m_flTrooperDPS": 35.0,
       "m_flModelScale": 1.0,
       "m_navHull": 1,
@@ -4096,7 +4096,7 @@
       "m_flSightRangeNPCs": 1500.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 25.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -4171,7 +4171,7 @@
       "m_flT3BossDPS": 80.0,
       "m_flGeneratorBossDPS": 22,
       "m_flBarrackBossDPS": 80.0,
-      "m_flPlayerDPS": 28.0,
+      "m_flPlayerDPS": 88.0,
       "m_flTrooperDPS": 35.0,
       "m_flModelScale": 1.0,
       "m_navHull": 1,
@@ -5216,7 +5216,8 @@
           "_class": "modifier_intrinsic_base",
           "m_nEnabledStateMask": "MODIFIER_STATE_TECH_UNTARGETABLE | MODIFIER_STATE_TECH_INVULNERABLE"
         }
-      }
+      },
+      "m_eTrooperType": "NEUTRAL_VAULT"
     },
     "neutral_sinners_sacrifice": {
       "m_WeaponInfo": {
@@ -5377,7 +5378,8 @@
           "_class": "modifier_intrinsic_base",
           "m_nEnabledStateMask": "MODIFIER_STATE_TECH_UNTARGETABLE | MODIFIER_STATE_TECH_INVULNERABLE"
         }
-      }
+      },
+      "m_eTrooperType": "NEUTRAL_SINNERS_SACRIFICE"
     },
     "neutral_trashbug": {
       "m_WeaponInfo": {
@@ -7093,7 +7095,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 55.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -7317,7 +7319,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 55.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -7537,7 +7539,7 @@
       "m_flSightRangeNPCs": 1600.0,
       "m_hFootstepSounds": "trooper",
       "m_flTrooperDamageResistPct": 55.0,
-      "m_flT1BossDamageResistPct": 35.0,
+      "m_flT1BossDamageResistPct": 28.0,
       "m_flT2BossDamageResistPct": 20.0,
       "m_flShieldDamageResistPct": 80.0,
       "m_flNearDeathDuration": 1.0,
@@ -7637,6 +7639,7 @@
         "m_nEnabledStateMask": "MODIFIER_STATE_IS_MELEE_TARGET",
         "m_IsDroppingParticle": "particles/environment/rejuv_ambient.vpcf",
         "m_IsPunchableParticle": "particles/environment/rejuv_attackable.vpcf",
+        "m_IsFrozenParticle": "particles/environment/rejuv_frozen_model.vpcf",
         "m_bIsHidden": true,
         "m_NearRejuvAuraModifier": {
           "_class": "modifier_base_aura",
@@ -7652,6 +7655,45 @@
           "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO"
         }
       }
+    },
+    "citadel_item_pickup_rejuv_herotest": {
+      "_class": "citadel_item_pickup_rejuv_herotest",
+      "m_AbilityProjectile": "ability_item_pickup_effects",
+      "m_RejuvModifier": {
+        "_class": "modifier_citadel_respawn_credit",
+        "_my_subclass_name": "modifier_citadel_respawn_credit",
+        "m_sExpireSound": "",
+        "m_strParticleEffect": "particles/modifiers/respawn_credit_buff.vpcf",
+        "m_flBonusClipSize": 0.0,
+        "m_flBonusFirerate": 20.0,
+        "m_flBonusHealth": 200.0,
+        "m_flBonusMoveSpeedMeterPerSecond": 1.0,
+        "m_sLocalizationName": "modifier_citadel_respawn_credit",
+        "m_eRespawnMechanic": "RejuvenatorRespawnMechanic_PercentOfNormal"
+      },
+      "m_PunchPickupModifier": {
+        "_class": "modifier_item_pickup_punchable",
+        "_my_subclass_name": "modifier_item_pickup_punchable",
+        "m_nEnabledStateMask": "MODIFIER_STATE_IS_MELEE_TARGET",
+        "m_IsDroppingParticle": "particles/environment/rejuv_ambient.vpcf",
+        "m_IsPunchableParticle": "particles/environment/rejuv_attackable.vpcf",
+        "m_IsFrozenParticle": "particles/environment/rejuv_frozen_model.vpcf",
+        "m_bIsHidden": true,
+        "m_NearRejuvAuraModifier": {
+          "_class": "modifier_base_aura",
+          "_my_subclass_name": "near_rejuv",
+          "m_bIsHidden": true,
+          "m_flAuraRadius": 300.0,
+          "m_modifierProvidedByAura": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "target_near_rejuv",
+            "m_bIsHidden": true,
+            "m_nEnabledStateMask": "MODIFIER_STATE_NEAR_REJUVINATOR"
+          },
+          "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO"
+        }
+      },
+      "_base": "citadel_item_pickup_rejuv"
     }
   }
 }
