@@ -119,6 +119,7 @@
         "_my_subclass_name": "aura_target",
         "m_bIsHidden": true,
         "m_PickupTimer": 2.0,
+        "m_nEnabledStateMask": "MODIFIER_STATE_TELEPORTER_DISABLED",
         "m_PickupTimerModifier": {
           "_class": "modifier_item_pickup_timer",
           "_my_subclass_name": "timer",
@@ -129,6 +130,7 @@
           "m_TimerToSilence": 0.5,
           "m_SilenceDuration": 0.1,
           "m_bIsIdolPickup": true,
+          "m_nEnabledStateMask": "MODIFIER_STATE_TELEPORTER_DISABLED",
           "m_SilenceModifier": {
             "_class": "modifier_citadel_silenced",
             "_my_subclass_name": "modifier_citadel_silenced",
@@ -279,7 +281,7 @@
       "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
       "m_sStartSound": "",
       "m_sAmbientLoopingSound": "",
-      "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL"
+      "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL | MODIFIER_STATE_TELEPORTER_DISABLED"
     },
     "modifier_citadel_idol_walkback": {
       "_class": "modifier_citadel_idol_walkback",
