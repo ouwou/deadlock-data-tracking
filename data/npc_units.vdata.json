@@ -4574,7 +4574,7 @@
         }
       },
       "m_eTrooperType": "NEUTRAL_TROOPER_WEAK",
-      "m_flHullCapsuleRadius": 90.0,
+      "m_flHullCapsuleRadius": 20.0,
       "m_flHullCapsuleHeight": 130.0,
       "m_flSightRangeNPCs": 500.0,
       "m_iStartingHealth": 100
@@ -4887,7 +4887,7 @@
         }
       },
       "m_eTrooperType": "NEUTRAL_TROOPER_WEAK",
-      "m_flHullCapsuleRadius": 90.0,
+      "m_flHullCapsuleRadius": 20.0,
       "m_flHullCapsuleHeight": 130.0
     },
     "neutral_trooper_normal": {
@@ -5057,7 +5057,7 @@
           }
         }
       },
-      "m_flHullCapsuleRadius": 90.0,
+      "m_flHullCapsuleRadius": 30.0,
       "m_flHullCapsuleHeight": 170.0
     },
     "neutral_vault": {
@@ -5551,7 +5551,7 @@
         }
       },
       "m_eTrooperType": "NEUTRAL_TROOPER_WEAK",
-      "m_flHullCapsuleRadius": 90.0,
+      "m_flHullCapsuleRadius": 20.0,
       "m_flHullCapsuleHeight": 130.0,
       "m_sEnemyMaterialGroupName": ""
     },
@@ -6882,7 +6882,7 @@
           }
         }
       },
-      "m_flHullCapsuleRadius": 90.0,
+      "m_flHullCapsuleRadius": 30.0,
       "m_flHullCapsuleHeight": 170.0,
       "m_sEnemyMaterialGroupName": "",
       "m_bEnableMovementToNodes": true,
