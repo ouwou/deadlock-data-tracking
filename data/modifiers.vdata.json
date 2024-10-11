@@ -56,8 +56,8 @@
             "m_eCameraOperation": "k_ECameraOp_Lerp",
             "m_flLerpDuration": 0.25,
             "m_flLerpBias": 0.702,
-            "m_bLerpStartAtCurrent": false,
-            "m_flLerpStart": 300.0
+            "m_bLerpStartAtCurrent": true,
+            "m_flLerpStart": 0.0
           }
         }
       },
@@ -113,7 +113,6 @@
     "modifier_idol_pickup_aura": {
       "_class": "modifier_held_item_pickup_aura",
       "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO",
-      "m_strParticleEffect": "particles/generic/idol_pickup_aura.vpcf",
       "m_modifierProvidedByAura": {
         "_class": "modifier_item_pickup_aura_target",
         "_my_subclass_name": "aura_target",
@@ -186,7 +185,22 @@
     },
     "citadel_modifier_teleport": {
       "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-      "m_eDebuffType": "MODIFIER_DEBUFF_NO"
+      "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+      "m_bDurationReducible": false,
+      "m_SpeedBonusModifier": {
+        "_class": "modifier_base",
+        "_my_subclass_name": "bonus_speed",
+        "m_strParticleStatusEffect": "particles/abilities/kali/kali_speed_boost_buff.vpcf",
+        "m_flDuration": 5.0,
+        "m_vecScriptValues": {
+          "0": {
+            "m_eModifierValue": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+            "m_value": 118.11
+          }
+        },
+        "m_strHudMessageText": "#TeleporterBonus",
+        "m_bIsHidden": true
+      }
     },
     "modifier_neutral_gold_pickup_aura": {
       "_class": "modifier_item_pickup_aura",
@@ -271,17 +285,8 @@
       "m_strParticleStatusEffect": "particles/generic/generic_disarmed.vpcf",
       "m_sLocalizationName": "MODIFIER_STATE_DISARMED",
       "m_strHudMessageText": "#modifier_citadel_disarmed",
-      "m_strSmallIconCssClass": "disarm_proc"
-    },
-    "modifier_citadel_holding_golden_idol": {
-      "_class": "modifier_citadel_holding_golden_idol",
-      "m_strParticleStatusEffect": "",
-      "m_IdolParticle": "particles/generic/idol_carry.vpcf",
-      "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-      "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
-      "m_sStartSound": "",
-      "m_sAmbientLoopingSound": "",
-      "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL | MODIFIER_STATE_TELEPORTER_DISABLED"
+      "m_strSmallIconCssClass": "disarm_proc",
+      "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
     },
     "modifier_citadel_idol_walkback": {
       "_class": "modifier_citadel_idol_walkback",
@@ -290,7 +295,9 @@
       "m_flSlowSpeed": 30.0,
       "m_flFastSpeed": 175.0,
       "m_flVerticalOffset": 0.0,
-      "m_flTolerance": 20.0
+      "m_flTolerance": 20.0,
+      "m_IdleParticle": "particles/generic/idol_pickup_aura.vpcf",
+      "m_RunningParticle": "particles/generic/idol_pickup_aura_running.vpcf"
     },
     "modifier_hero_testing_damage_aura": {
       "_class": "modifier_hero_testing_damage_aura",
@@ -445,6 +452,29 @@
     "modifier_citadel_cheater_curse": {
       "_class": "modifier_citadel_cheater_curse",
       "m_CursedModel": "models/abilities/pocket_frog_small.vmdl"
+    },
+    "modifier_inside_interior_small": {
+      "_class": "modifier_base",
+      "m_bIsHidden": true,
+      "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE",
+      "m_nEnabledStateMask": "MODIFIER_STATE_IN_SMALL_INTERIOR_SPACE"
+    },
+    "modifier_inside_interior_medium": {
+      "_class": "modifier_base",
+      "m_bIsHidden": true,
+      "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE",
+      "m_nEnabledStateMask": "MODIFIER_STATE_IN_MEDIUM_INTERIOR_SPACE"
+    },
+    "modifier_escalating_exposure_tech_armor_debuff": {
+      "_class": "modifier_base",
+      "m_bIsHidden": true,
+      "m_strSmallIconCssClass": "escalating_exposure",
+      "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
+      "m_bDurationAffectedByEffectiveness": true,
+      "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+      "m_vecAutoRegisterModifierValueFromAbilityPropertyName": {
+        "0": "TechArmorDamageReduction"
+      }
     }
   }
 }
