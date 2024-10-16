@@ -3711,7 +3711,7 @@
       "m_BeamPointStartLoopSound": "Guardian.Tier1.Wpn.Point.Begin.Lp",
       "m_BeamPointEndLoopSound": "Guardian.Tier1.Wpn.Point.End.Lp",
       "m_BeamPointClosestLoopSound": "Guardian.Tier1.Wpn.Point.Closest.Lp",
-      "m_flInvulRange": 748.031,
+      "m_flInvulRange": 787.402,
       "m_flMinMeleeAttackTime": 1.5,
       "m_TrooperBossInvulnModifier": {
         "_my_subclass_name": "trooper_boss_invuln",
@@ -3949,7 +3949,7 @@
       "m_BeamPointStartLoopSound": "Guardian.Tier1.Wpn.Point.Begin.Lp",
       "m_BeamPointEndLoopSound": "Guardian.Tier1.Wpn.Point.End.Lp",
       "m_BeamPointClosestLoopSound": "Guardian.Tier1.Wpn.Point.Closest.Lp",
-      "m_flInvulRange": 748.031,
+      "m_flInvulRange": 787.402,
       "m_flMinMeleeAttackTime": 1.5,
       "m_TrooperBossInvulnModifier": {
         "_my_subclass_name": "trooper_boss_invuln",
@@ -4227,7 +4227,7 @@
       "m_BeamPointStartLoopSound": "Guardian.Tier1.Wpn.Point.Begin.Lp",
       "m_BeamPointEndLoopSound": "Guardian.Tier1.Wpn.Point.End.Lp",
       "m_BeamPointClosestLoopSound": "Guardian.Tier1.Wpn.Point.Closest.Lp",
-      "m_flInvulRange": 748.031,
+      "m_flInvulRange": 787.402,
       "m_flMinMeleeAttackTime": 1.5,
       "m_TrooperBossInvulnModifier": {
         "_my_subclass_name": "trooper_boss_invuln",
