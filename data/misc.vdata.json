@@ -59,7 +59,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 50.0,
       "_base": "citadel_breakable_prop_base",
       "_not_pickable": 2,
@@ -158,7 +158,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_base",
       "_not_pickable": 2,
@@ -180,7 +180,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 50.0,
       "_base": "citadel_breakable_prop_drop_powerups",
       "m_vecPrimaryPickups": {
@@ -280,7 +280,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -303,7 +303,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -325,7 +325,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -348,7 +348,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -372,7 +372,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -396,7 +396,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -420,7 +420,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -444,7 +444,7 @@
       "m_bDamagedByAbilities": true,
       "m_bDamagedByMelee": true,
       "m_bDamagedByBullets": true,
-      "m_flInitialSpawnTime": 120.0,
+      "m_flInitialSpawnTime": 180.0,
       "m_flPrimaryDropChance": 40.0,
       "_base": "citadel_breakable_prop_drop_gold",
       "m_vecPrimaryPickups": {
@@ -796,8 +796,8 @@
       "m_sPickupSound": "Player.ClaimOrb",
       "m_nNameOffset": 60,
       "_base": "citadel_breakable_prop_pickup_base",
-      "m_flGoldAmount": 35,
-      "m_flGoldPerMinuteAmount": 3,
+      "m_flGoldAmount": 30,
+      "m_flGoldPerMinuteAmount": 2.5,
       "m_Color": {
         "0": 0,
         "1": 255,
@@ -1621,7 +1621,8 @@
       "m_strOrbDeniedPlayer": "Player.Denied",
       "m_bUseKillerPlaneOffsets": false,
       "m_flKillerPlaneOffset": 0,
-      "m_flOrbClaimWindow": 0
+      "m_flOrbClaimWindow": 0,
+      "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf"
     },
     "xp_orb_trooper": {
       "_class": "item_xp",
@@ -1655,6 +1656,7 @@
       "m_bUseKillerPlaneOffsets": true,
       "m_flKillerPlaneOffset": 15.0,
       "m_flOrbClaimWindow": 0.1,
+      "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
       "_base": "xp_orb",
       "m_flKillerPlaneHorizontalDecayRate": 15.0,
       "m_flLateralMoveDuration": 0.3,
@@ -1697,6 +1699,7 @@
       "m_bUseKillerPlaneOffsets": false,
       "m_flKillerPlaneOffset": 0,
       "m_flOrbClaimWindow": 0,
+      "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
       "_base": "xp_orb"
     },
     "xp_orb_player_kill": {
@@ -1731,6 +1734,7 @@
       "m_bUseKillerPlaneOffsets": false,
       "m_flKillerPlaneOffset": 0,
       "m_flOrbClaimWindow": 0,
+      "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
       "_base": "xp_orb"
     },
     "xp_orb_objective": {
@@ -1765,6 +1769,7 @@
       "m_bUseKillerPlaneOffsets": false,
       "m_flKillerPlaneOffset": 0,
       "m_flOrbClaimWindow": 0,
+      "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
       "_base": "xp_orb",
       "m_bIsObjective": true
     },
@@ -1800,6 +1805,7 @@
       "m_bUseKillerPlaneOffsets": false,
       "m_flKillerPlaneOffset": 0,
       "m_flOrbClaimWindow": 0,
+      "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
       "_base": "xp_orb"
     },
     "xp_orb_spawner": {
@@ -1834,6 +1840,7 @@
       "m_bUseKillerPlaneOffsets": true,
       "m_flKillerPlaneOffset": 15.0,
       "m_flOrbClaimWindow": 0.1,
+      "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
       "_base": "xp_orb_trooper",
       "m_flKillerPlaneHorizontalDecayRate": 15.0,
       "m_flLateralMoveDuration": 0.3,
@@ -1856,11 +1863,15 @@
     "info_neutral_trooper_camp": {
       "_class": "info_neutral_trooper_camp",
       "_not_pickable": 2,
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "Neutral.Camp.Idle",
       "m_sAlertAmbient": "Neutral.Camp.Aggro"
     },
     "neutral_camp_vaults": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "Neutral.Camp.Idle",
       "m_sAlertAmbient": "Neutral.Camp.Aggro",
       "_base": "info_neutral_trooper_camp",
@@ -1870,6 +1881,8 @@
     },
     "neutral_camp_vaults_herotest": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "",
       "m_sAlertAmbient": "",
       "_base": "neutral_camp_vaults",
@@ -1879,6 +1892,8 @@
     },
     "neutral_camp_weak": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "Neutral.Camp.Idle",
       "m_sAlertAmbient": "Neutral.Camp.Aggro",
       "_base": "info_neutral_trooper_camp",
@@ -1888,6 +1903,8 @@
     },
     "neutral_camp_weak_herotest": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "",
       "m_sAlertAmbient": "",
       "_base": "neutral_camp_weak",
@@ -1897,6 +1914,8 @@
     },
     "neutral_camp_medium": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "Neutral.Camp.Idle",
       "m_sAlertAmbient": "Neutral.Camp.Aggro",
       "_base": "info_neutral_trooper_camp",
@@ -1906,6 +1925,8 @@
     },
     "neutral_camp_medium_herotest": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "",
       "m_sAlertAmbient": "",
       "_base": "neutral_camp_medium",
@@ -1915,6 +1936,8 @@
     },
     "neutral_camp_strong": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "Neutral.Camp.Idle",
       "m_sAlertAmbient": "Neutral.Camp.Aggro",
       "_base": "info_neutral_trooper_camp",
@@ -1924,6 +1947,8 @@
     },
     "neutral_camp_strong_herotest": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": 0,
+      "m_iSpawnIntervalMin": 0,
       "m_sIdleAmbient": "",
       "m_sAlertAmbient": "",
       "_base": "neutral_camp_strong",
@@ -1933,6 +1958,8 @@
     },
     "neutral_camp_midboss": {
       "_class": "info_neutral_trooper_camp",
+      "m_iSpawnIntervalChange": -60,
+      "m_iSpawnIntervalMin": 300,
       "m_sIdleAmbient": "Neutral.Camp.Idle",
       "m_sAlertAmbient": "Neutral.Camp.Aggro",
       "_base": "info_neutral_trooper_camp",

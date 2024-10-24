@@ -1,0 +1,326 @@
+{
+  "Root": {
+    "generic_data_type": "CToolSceneLightRig",
+    "MaterialThumbnail": {
+      "m_nRigType": "MATERIAL_THUMBNAIL",
+      "m_Suns": {
+        "0": {
+          "m_vPosition": {
+            "0": 300.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "m_vDirection": {
+            "0": 1.0,
+            "1": 0.2,
+            "2": 1.0
+          },
+          "m_bCastShadows": true,
+          "m_flAxisScale": 2.0,
+          "m_flLightSourceRadius": 0.5,
+          "m_flShadowCascadeDistance0": 200.0,
+          "m_flShadowCascadeDistance1": 1000.0
+        }
+      },
+      "m_PointLights": {
+        "0": {
+          "m_bRelativePositioning": true,
+          "m_flBrightness": 0.5,
+          "m_vPosition": {
+            "0": 0.0,
+            "1": 200.0,
+            "2": 0.0
+          },
+          "m_flDistance": 2.0
+        },
+        "1": {
+          "m_vPosition": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 200.0
+          },
+          "m_flBrightness": 0.5,
+          "m_flDistance": 2.0,
+          "m_bRelativePositioning": true
+        }
+      },
+      "m_Background": {
+        "m_Color": {
+          "0": 60,
+          "1": 60,
+          "2": 60
+        },
+        "m_bEnabled": true
+      },
+      "m_Grid": {
+        "m_Color": {
+          "0": 90,
+          "1": 90,
+          "2": 90
+        }
+      },
+      "m_Exposure": {
+        "m_flMinEV": -6.0,
+        "m_flMaxEV": 6.0,
+        "m_bEnabled": true
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Thumbnail": {
+      "m_nRigType": "THUMBNAIL",
+      "m_Background": {
+        "m_bEnabled": true,
+        "m_Color": {
+          "0": 60,
+          "1": 60,
+          "2": 60
+        }
+      },
+      "m_Grid": {
+        "m_Color": {
+          "0": 90,
+          "1": 90,
+          "2": 90
+        }
+      },
+      "m_Exposure": {
+        "m_bEnabled": true,
+        "m_flMinEV": -6.0,
+        "m_flMaxEV": 6.0
+      },
+      "m_Suns": {
+        "0": {
+          "m_vPosition": {
+            "0": 300.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "m_vDirection": {
+            "0": 1.0,
+            "1": 0.2,
+            "2": 1.0
+          },
+          "m_bCastShadows": true,
+          "m_flAxisScale": 2.0,
+          "m_flLightSourceRadius": 0.5,
+          "m_flShadowCascadeDistance0": 200.0,
+          "m_flShadowCascadeDistance1": 1000.0
+        }
+      },
+      "m_PointLights": {
+        "0": {
+          "m_bRelativePositioning": true,
+          "m_vPosition": {
+            "0": 0.0,
+            "1": 200.0,
+            "2": 0.0
+          },
+          "m_flBrightness": 0.5,
+          "m_flDistance": 2.0
+        },
+        "1": {
+          "m_vPosition": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 200.0
+          },
+          "m_flBrightness": 0.5,
+          "m_flDistance": 2.0,
+          "m_bRelativePositioning": true
+        }
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Default": {
+      "m_Exposure": {
+        "m_bEnabled": false,
+        "m_flMinEV": -2.0,
+        "m_flMaxEV": 2.0
+      },
+      "m_Suns": {},
+      "m_PointLights": {},
+      "m_Sky": {
+        "m_hSkyMaterial": ""
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_studio_small_9.vmap",
+        "m_bParticlesTraceAgainstMap": true
+      }
+    },
+    "Old Default": {
+      "m_Exposure": {
+        "m_bEnabled": true,
+        "m_flMinEV": -6.0,
+        "m_flMaxEV": 6.0
+      },
+      "m_Suns": {
+        "0": {
+          "m_vPosition": {
+            "0": 300.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "m_vDirection": {
+            "0": 1.0,
+            "1": 0.2,
+            "2": 1.0
+          },
+          "m_flAxisScale": 2.0,
+          "m_bCastShadows": true,
+          "m_flLightSourceRadius": 0.5,
+          "m_flShadowCascadeDistance0": 200.0,
+          "m_flShadowCascadeDistance1": 1000.0
+        }
+      },
+      "m_PointLights": {
+        "0": {
+          "m_bRelativePositioning": true,
+          "m_flDistance": 2.0,
+          "m_vPosition": {
+            "0": 0.0,
+            "1": 200.0,
+            "2": 0.0
+          },
+          "m_flBrightness": 0.5
+        },
+        "1": {
+          "m_vPosition": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 200.0
+          },
+          "m_flDistance": 2.0,
+          "m_flBrightness": 0.5,
+          "m_bRelativePositioning": true
+        }
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_default.vmap"
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Headlight": {
+      "m_Exposure": {
+        "m_bEnabled": true,
+        "m_flMinEV": -6.0,
+        "m_flMaxEV": 6.0
+      },
+      "m_Suns": {
+        "0": {
+          "m_bParentToCamera": true,
+          "m_vDirection": {
+            "0": -1.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "m_bCastShadows": true,
+          "m_flAxisScale": 2.0,
+          "m_flLightSourceRadius": 0.5,
+          "m_flShadowCascadeDistance0": 200.0,
+          "m_flShadowCascadeDistance1": 1000.0
+        }
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_default.vmap"
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Dark": {
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_dark.vmap"
+      }
+    },
+    "Sunny": {
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_basic_sunny.vmap"
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Overcast": {
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_basic_overcast.vmap"
+      }
+    },
+    "Purple Sunset": {
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_basic_sunset.vmap"
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Field": {
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_basic_field.vmap"
+      }
+    },
+    "Eclipse": {
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/caldera.vpost"
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_eclipse.vmap"
+      }
+    },
+    "Interior": {
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_basic_interior.vmap"
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Interior Factory": {
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_basic_interior_factory.vmap"
+      }
+    },
+    "Studio Scene": {
+      "m_BackgroundMap": {
+        "m_MapName": "maps/editor/toolscene_lighting_studio.vmap",
+        "m_bParticlesTraceAgainstMap": true
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/toolscene.vpost"
+      }
+    },
+    "Particle Preview with Postprocessing": {
+      "m_Exposure": {
+        "m_bEnabled": true,
+        "m_flMinEV": -6.0,
+        "m_flMaxEV": 6.0
+      },
+      "m_BackgroundMap": {
+        "m_MapName": "maps/fx_test.vmap"
+      },
+      "m_PostProcessing": {
+        "m_hPostProcessing": "postprocessing/caldera.vpost"
+      }
+    }
+  }
+}
