@@ -10183,11 +10183,11 @@
       "m_mapScalingStats": {
         "EMaxMoveSpeed": {
           "eScalingStat": "ETechPower",
-          "flScale": 0.04
+          "flScale": 0.032
         },
         "EBulletDamage": {
           "eScalingStat": "ETechPower",
-          "flScale": 0.13
+          "flScale": 0.12
         }
       },
       "m_heroStatsDisplay": {
