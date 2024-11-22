@@ -6154,7 +6154,7 @@
         "_class": "modifier_base_aura",
         "_my_subclass_name": "friendly_aura",
         "m_bIsHidden": true,
-        "m_flAuraRadius": 905.51,
+        "m_flAuraRadius": 1400,
         "m_modifierProvidedByAura": {
           "_class": "modifier_base",
           "_my_subclass_name": "target_near_walker",
@@ -6294,7 +6294,7 @@
         "_class": "modifier_base_aura",
         "_my_subclass_name": "friendly_aura",
         "m_bIsHidden": true,
-        "m_flAuraRadius": 905.51,
+        "m_flAuraRadius": 1400,
         "m_modifierProvidedByAura": {
           "_class": "modifier_base",
           "_my_subclass_name": "target_near_walker",
@@ -6435,7 +6435,7 @@
         "_class": "modifier_base_aura",
         "_my_subclass_name": "friendly_aura",
         "m_bIsHidden": true,
-        "m_flAuraRadius": 905.51,
+        "m_flAuraRadius": 1400,
         "m_modifierProvidedByAura": {
           "_class": "modifier_base",
           "_my_subclass_name": "target_near_walker",
@@ -6576,7 +6576,7 @@
         "_class": "modifier_base_aura",
         "_my_subclass_name": "friendly_aura",
         "m_bIsHidden": true,
-        "m_flAuraRadius": 905.51,
+        "m_flAuraRadius": 1400,
         "m_modifierProvidedByAura": {
           "_class": "modifier_base",
           "_my_subclass_name": "target_near_walker",
