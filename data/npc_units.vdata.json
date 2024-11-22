@@ -6036,7 +6036,7 @@
     "npc_boss_tier2": {
       "_class": "npc_boss_tier2",
       "m_sModelName": "models/npc/boss_tier_02_sun_walker/boss_tier_02_sun_walker.vmdl",
-      "m_nMaxHealth": 5800,
+      "m_nMaxHealth": 8000,
       "m_flSightRangePlayers": 1600.0,
       "m_flSightRangeNPCs": 1600.0,
       "m_flPlayerInitialSightRange": 1200.0,
@@ -6054,6 +6054,7 @@
       "m_StompImpactEffect": "particles/npc/tier2boss/tier2boss_stomp.vpcf",
       "m_StompWarningEffect": "particles/npc/tier2boss/tier2boss_stomp_precast.vpcf",
       "m_flStompDamage": 350.0,
+      "m_flStompDamageMaxHealthPercent": 10.0,
       "m_flStunDuration": 2.0,
       "m_flMeleeAttemptRange": 600.0,
       "m_flStompImpactRadius": 905.51,
@@ -6134,12 +6135,48 @@
         "_class": "modifier_boss_invuln",
         "m_flShieldRadius": 300,
         "m_ShieldParticle": "particles/trooper/tier2_boss_invulerability_shield.vpcf"
+      },
+      "m_NearbyEnemyResist": {
+        "_my_subclass_name": "modifier_nearby_enemy_resist",
+        "_class": "modifier_nearby_enemy_resist",
+        "m_flNearbyEnemyResistRange": 2000.0,
+        "m_flResistValues": {
+          "0": 0,
+          "1": 0,
+          "2": 8,
+          "3": 16,
+          "4": 24,
+          "5": 32,
+          "6": 40
+        }
+      },
+      "m_FriendlyAuraModifier": {
+        "_class": "modifier_base_aura",
+        "_my_subclass_name": "friendly_aura",
+        "m_bIsHidden": true,
+        "m_flAuraRadius": 905.51,
+        "m_modifierProvidedByAura": {
+          "_class": "modifier_base",
+          "_my_subclass_name": "target_near_walker",
+          "m_sLocalizationName": "modifier_walker_resist_aura",
+          "m_vecScriptValues": {
+            "0": {
+              "m_eModifierValue": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            },
+            "1": {
+              "m_eModifierValue": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            }
+          }
+        },
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
       }
     },
     "alt_npc_boss_tier2": {
       "_class": "npc_boss_tier2",
       "m_sModelName": "models/npc/boss_tier_02_sun_walker/boss_tier_02_sun_walker.vmdl",
-      "m_nMaxHealth": 5800,
+      "m_nMaxHealth": 8000,
       "m_flSightRangePlayers": 1600.0,
       "m_flSightRangeNPCs": 1600.0,
       "m_flPlayerInitialSightRange": 1200.0,
@@ -6157,6 +6194,7 @@
       "m_StompImpactEffect": "particles/npc/tier2boss/tier2boss_stomp.vpcf",
       "m_StompWarningEffect": "particles/npc/tier2boss/tier2boss_stomp_precast.vpcf",
       "m_flStompDamage": 350.0,
+      "m_flStompDamageMaxHealthPercent": 10.0,
       "m_flStunDuration": 2.0,
       "m_flMeleeAttemptRange": 600.0,
       "m_flStompImpactRadius": 905.51,
@@ -6237,6 +6275,42 @@
         "_class": "modifier_boss_invuln",
         "m_flShieldRadius": 300,
         "m_ShieldParticle": "particles/trooper/tier2_boss_invulerability_shield.vpcf"
+      },
+      "m_NearbyEnemyResist": {
+        "_my_subclass_name": "modifier_nearby_enemy_resist",
+        "_class": "modifier_nearby_enemy_resist",
+        "m_flNearbyEnemyResistRange": 2000.0,
+        "m_flResistValues": {
+          "0": 0,
+          "1": 0,
+          "2": 8,
+          "3": 16,
+          "4": 24,
+          "5": 32,
+          "6": 40
+        }
+      },
+      "m_FriendlyAuraModifier": {
+        "_class": "modifier_base_aura",
+        "_my_subclass_name": "friendly_aura",
+        "m_bIsHidden": true,
+        "m_flAuraRadius": 905.51,
+        "m_modifierProvidedByAura": {
+          "_class": "modifier_base",
+          "_my_subclass_name": "target_near_walker",
+          "m_sLocalizationName": "modifier_walker_resist_aura",
+          "m_vecScriptValues": {
+            "0": {
+              "m_eModifierValue": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            },
+            "1": {
+              "m_eModifierValue": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            }
+          }
+        },
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
       },
       "_base": "npc_boss_tier2"
     },
@@ -6261,6 +6335,7 @@
       "m_StompImpactEffect": "particles/npc/tier2boss/tier2boss_stomp.vpcf",
       "m_StompWarningEffect": "particles/npc/tier2boss/tier2boss_stomp_precast.vpcf",
       "m_flStompDamage": 350.0,
+      "m_flStompDamageMaxHealthPercent": 10.0,
       "m_flStunDuration": 2.0,
       "m_flMeleeAttemptRange": 600.0,
       "m_flStompImpactRadius": 905.51,
@@ -6341,6 +6416,42 @@
         "_class": "modifier_boss_invuln",
         "m_flShieldRadius": 300,
         "m_ShieldParticle": "particles/trooper/tier2_boss_invulerability_shield.vpcf"
+      },
+      "m_NearbyEnemyResist": {
+        "_my_subclass_name": "modifier_nearby_enemy_resist",
+        "_class": "modifier_nearby_enemy_resist",
+        "m_flNearbyEnemyResistRange": 2000.0,
+        "m_flResistValues": {
+          "0": 0,
+          "1": 0,
+          "2": 8,
+          "3": 16,
+          "4": 24,
+          "5": 32,
+          "6": 40
+        }
+      },
+      "m_FriendlyAuraModifier": {
+        "_class": "modifier_base_aura",
+        "_my_subclass_name": "friendly_aura",
+        "m_bIsHidden": true,
+        "m_flAuraRadius": 905.51,
+        "m_modifierProvidedByAura": {
+          "_class": "modifier_base",
+          "_my_subclass_name": "target_near_walker",
+          "m_sLocalizationName": "modifier_walker_resist_aura",
+          "m_vecScriptValues": {
+            "0": {
+              "m_eModifierValue": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            },
+            "1": {
+              "m_eModifierValue": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            }
+          }
+        },
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
       },
       "_base": "npc_boss_tier2"
     },
@@ -6365,6 +6476,7 @@
       "m_StompImpactEffect": "particles/npc/tier2boss/tier2boss_stomp.vpcf",
       "m_StompWarningEffect": "particles/npc/tier2boss/tier2boss_stomp_precast.vpcf",
       "m_flStompDamage": 350.0,
+      "m_flStompDamageMaxHealthPercent": 10.0,
       "m_flStunDuration": 2.0,
       "m_flMeleeAttemptRange": 600.0,
       "m_flStompImpactRadius": 905.51,
@@ -6445,6 +6557,42 @@
         "_class": "modifier_boss_invuln",
         "m_flShieldRadius": 300,
         "m_ShieldParticle": "particles/trooper/tier2_boss_invulerability_shield.vpcf"
+      },
+      "m_NearbyEnemyResist": {
+        "_my_subclass_name": "modifier_nearby_enemy_resist",
+        "_class": "modifier_nearby_enemy_resist",
+        "m_flNearbyEnemyResistRange": 2000.0,
+        "m_flResistValues": {
+          "0": 0,
+          "1": 0,
+          "2": 8,
+          "3": 16,
+          "4": 24,
+          "5": 32,
+          "6": 40
+        }
+      },
+      "m_FriendlyAuraModifier": {
+        "_class": "modifier_base_aura",
+        "_my_subclass_name": "friendly_aura",
+        "m_bIsHidden": true,
+        "m_flAuraRadius": 905.51,
+        "m_modifierProvidedByAura": {
+          "_class": "modifier_base",
+          "_my_subclass_name": "target_near_walker",
+          "m_sLocalizationName": "modifier_walker_resist_aura",
+          "m_vecScriptValues": {
+            "0": {
+              "m_eModifierValue": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            },
+            "1": {
+              "m_eModifierValue": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "m_value": 25
+            }
+          }
+        },
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
       },
       "_base": "npc_boss_tier2_weak"
     },
@@ -6477,6 +6625,7 @@
       "m_flLaserTargetingZOffset": 75.0,
       "m_flDefaultMoveSpeed": 200.0,
       "m_flLaserDPSToPlayers": 440.0,
+      "m_flLaserDPSMaxHealth": 3,
       "m_flLaserDPSToNPCs": 80.0,
       "m_flLaserTrackingSpeed": 1000.0,
       "m_flLaserTrackingMaxSpeed": 1000.0,
@@ -6560,6 +6709,7 @@
       "m_flLaserTargetingZOffset": 75.0,
       "m_flDefaultMoveSpeed": 200.0,
       "m_flLaserDPSToPlayers": 440.0,
+      "m_flLaserDPSMaxHealth": 3,
       "m_flLaserDPSToNPCs": 80.0,
       "m_flLaserTrackingSpeed": 1000.0,
       "m_flLaserTrackingMaxSpeed": 1000.0,
@@ -6786,8 +6936,8 @@
     "npc_shielded_sentry": {
       "_class": "npc_shielded_sentry",
       "m_sModelName": "models/props_gameplay/turret/turret.vmdl",
-      "m_LaserSightParticle": "particles/abilities/engineer/engineer_sentry_laser_sight.vpcf",
-      "m_KillExplosionParticle": "particles/abilities/engineer/engineer_sentry_death.vpcf",
+      "m_LaserSightParticle": "particles/abilities/mcginnis/mcginnis_sentry_laser_sight.vpcf",
+      "m_KillExplosionParticle": "particles/abilities/mcginnis/mcginnis_sentry_death.vpcf",
       "m_sSpawnSound": "Forge.Turret.Place",
       "m_sKillExplosionSound": "Forge.Turret.Explosion",
       "m_sTargetAcquiredLocalSound": "Forge.Turret.LockOn.LocalClient",

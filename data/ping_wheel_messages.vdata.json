@@ -11,7 +11,8 @@
       "m_strMessageToken": "#citadel_chatwheel_label_GoingIn",
       "m_unPingWheelOptionID": 1,
       "m_bBindable": true,
-      "m_flPhraseTopMarginOffset": 50.0
+      "m_flPhraseTopMarginOffset": 50.0,
+      "m_bPingWheelBindable": true
     },
     "Help": {
       "m_strLabelToken": "#citadel_chatwheel_label_Help",
@@ -22,7 +23,8 @@
       "m_strMessageToken": "#citadel_chatwheel_message_Help",
       "m_unPingWheelOptionID": 2,
       "m_bBindable": true,
-      "m_flPhraseTopMarginOffset": 50.0
+      "m_flPhraseTopMarginOffset": 50.0,
+      "m_bPingWheelBindable": true
     },
     "Yes": {
       "m_strLabelToken": "#citadel_chatwheel_label_Yes",
@@ -30,7 +32,9 @@
       "m_strIcon": "file://{images}/hud/ping/ping_icon_quick.svg",
       "m_ePingConcept": "CITADEL_PING_YES",
       "m_ePingMarkerInfo": "k_EPingMarkerInfo_HideMarkerAndSound",
-      "m_unPingWheelOptionID": 3
+      "m_unPingWheelOptionID": 3,
+      "m_bPingWheelBindable": true,
+      "m_bBindable": true
     },
     "Thanks": {
       "m_strLabelToken": "#citadel_chatwheel_label_thanks",
@@ -41,7 +45,8 @@
       "m_ePingConcept": "CITADEL_PING_THANK_YOU",
       "m_unPingWheelOptionID": 4,
       "m_bBindable": true,
-      "m_flPhraseTopMarginOffset": 40.0
+      "m_flPhraseTopMarginOffset": 40.0,
+      "m_bPingWheelBindable": true
     },
     "Retreat": {
       "m_strLabelToken": "#citadel_chatwheel_label_retreat",
@@ -52,7 +57,8 @@
       "m_ePingWheelSoundType": "CITADEL_PING_WHEEL_SOUND_WARNING",
       "m_unPingWheelOptionID": 5,
       "m_bBindable": true,
-      "m_flPhraseTopMarginOffset": 40.0
+      "m_flPhraseTopMarginOffset": 40.0,
+      "m_bPingWheelBindable": true
     },
     "Stay Together": {
       "m_strLabelToken": "#citadel_chatwheel_label_StayTogether",
@@ -62,7 +68,8 @@
       "m_ePingWheelSoundType": "CITADEL_PING_WHEEL_SOUND_WARNING",
       "m_ePingMarkerInfo": "k_EPingMarkerInfo_OnlyPlaySound",
       "m_unPingWheelOptionID": 6,
-      "m_bBindable": true
+      "m_bBindable": true,
+      "m_bPingWheelBindable": true
     },
     "Defend Lane": {
       "m_strLabelToken": "#citadel_chatwheel_label_Defend",
@@ -87,7 +94,9 @@
       "m_strMessageToken": "#citadel_chatwheel_message_Defend_Yellow",
       "m_unPingWheelOptionID": 8,
       "m_ePingConcept": "CITADEL_PING_DEFEND_LANE",
-      "m_eLaneColor": "k_ELaneColor_Yellow"
+      "m_eLaneColor": "k_ELaneColor_Yellow",
+      "m_bPingWheelBindable": true,
+      "m_bBindable": false
     },
     "Defend Green": {
       "m_bIsSubnavMessage": true,
@@ -95,7 +104,9 @@
       "m_strMessageToken": "#citadel_chatwheel_message_Defend_Green",
       "m_unPingWheelOptionID": 9,
       "m_ePingConcept": "CITADEL_PING_DEFEND_LANE",
-      "m_eLaneColor": "k_ELaneColor_Green"
+      "m_eLaneColor": "k_ELaneColor_Green",
+      "m_bPingWheelBindable": true,
+      "m_bBindable": false
     },
     "Defend Blue": {
       "m_bIsSubnavMessage": true,
@@ -103,7 +114,9 @@
       "m_strMessageToken": "#citadel_chatwheel_message_Defend_Blue",
       "m_unPingWheelOptionID": 10,
       "m_ePingConcept": "CITADEL_PING_DEFEND_LANE",
-      "m_eLaneColor": "k_ELaneColor_Blue"
+      "m_eLaneColor": "k_ELaneColor_Blue",
+      "m_bPingWheelBindable": true,
+      "m_bBindable": false
     },
     "Defend Purple": {
       "m_bIsSubnavMessage": true,
@@ -111,7 +124,8 @@
       "m_strMessageToken": "#citadel_chatwheel_message_Defend_Purple",
       "m_unPingWheelOptionID": 11,
       "m_ePingConcept": "CITADEL_PING_DEFEND_LANE",
-      "m_eLaneColor": "k_ELaneColor_Purple"
+      "m_eLaneColor": "k_ELaneColor_Purple",
+      "m_bPingWheelBindable": true
     },
     "Headed To Shop/Base": {
       "m_unPingWheelOptionID": 12,
@@ -120,14 +134,17 @@
       "m_ePingConcept": "CITADEL_PING_HEADED_TO_BASE",
       "m_ePingMarkerInfo": "k_EPingMarkerInfo_HideMarkerAndSound",
       "m_strIcon": "file://{images}/hud/ping/ping_icon_shop.svg",
-      "m_bBindable": true
+      "m_bBindable": true,
+      "m_bPingWheelBindable": true
     },
     "No": {
       "m_unPingWheelOptionID": 17,
       "m_strLabelToken": "#citadel_chatwheel_label_No",
       "m_strMessageToken": "#citadel_chatwheel_label_No",
       "m_ePingConcept": "CITADEL_PING_NO",
-      "m_ePingMarkerInfo": "k_EPingMarkerInfo_HideMarkerAndSound"
+      "m_ePingMarkerInfo": "k_EPingMarkerInfo_HideMarkerAndSound",
+      "m_bPingWheelBindable": true,
+      "m_bBindable": true
     },
     "Good Job": {
       "m_unPingWheelOptionID": 18,
@@ -138,7 +155,8 @@
       "m_eRecipientsType": "k_ECitadelRecipients_RecipientsAroundPlayer",
       "m_strIcon": "file://{images}/hud/ping/ping_icon_thanks.svg",
       "m_bBindable": true,
-      "m_flPhraseTopMarginOffset": 50.0
+      "m_flPhraseTopMarginOffset": 50.0,
+      "m_bPingWheelBindable": true
     },
     "Good Game (Post Game) - All Chat": {
       "m_unPingWheelOptionID": 19,
@@ -181,7 +199,9 @@
       "m_ePingConcept": "CITADEL_PING_ON_MY_WAY",
       "m_ePingMarkerInfo": "k_EPingMarkerInfo_HideMarkerAndSound",
       "m_strLabelToken": "#citadel_chatwheel_label_OMW",
-      "m_strMessageToken": "#citadel_chatwheel_label_OMW"
+      "m_strMessageToken": "#citadel_chatwheel_label_OMW",
+      "m_bPingWheelBindable": true,
+      "m_bBindable": true
     },
     "Push Lane": {
       "m_unPingWheelOptionID": 24,
@@ -264,7 +284,8 @@
       "m_strMessageToken": "#citadel_chatwheel_message_missing_hero",
       "m_bBindable": true,
       "m_flPhraseTopMarginOffset": 50.0,
-      "m_strIcon": "file://{images}/hud/ping/ping_icon_question.svg"
+      "m_strIcon": "file://{images}/hud/ping/ping_icon_question.svg",
+      "m_bPingWheelBindable": true
     },
     "Need Heal": {
       "m_unPingWheelOptionID": 32,
@@ -276,7 +297,8 @@
       "m_ePingWheelSoundType": "CITADEL_PING_WHEEL_SOUND_WARNING",
       "m_bBindable": true,
       "m_flPhraseTopMarginOffset": 50.0,
-      "m_strIcon": "file://{images}/hud/ping/ping_icon_heal.svg"
+      "m_strIcon": "file://{images}/hud/ping/ping_icon_heal.svg",
+      "m_bPingWheelBindable": true
     },
     "Can Heal": {
       "m_unPingWheelOptionID": 33,
@@ -288,7 +310,8 @@
       "m_bBindable": true,
       "m_flPhraseTopMarginOffset": 50.0,
       "m_strIcon": "file://{images}/hud/ping/ping_icon_heal.svg",
-      "m_ePingMarkerInfo": "k_EPingMarkerInfo_ShowMarkerOnSender"
+      "m_ePingMarkerInfo": "k_EPingMarkerInfo_ShowMarkerOnSender",
+      "m_bPingWheelBindable": true
     },
     "Need Plan": {
       "m_unPingWheelOptionID": 34,
@@ -297,7 +320,8 @@
       "m_strMessageToken": "#ping_need_plan",
       "m_bBindable": true,
       "m_flPhraseTopMarginOffset": 25.0,
-      "m_strIcon": "file://{images}/hud/ping/ping_icon_question.svg"
+      "m_strIcon": "file://{images}/hud/ping/ping_icon_question.svg",
+      "m_bPingWheelBindable": true
     },
     "Heading to Yellow Subnav": {
       "m_unPingWheelOptionID": 38,
@@ -308,7 +332,8 @@
       "m_eLaneColor": "k_ELaneColor_Yellow",
       "m_strIcon": "file://{images}/hud/ping/ping_icon_going_in.svg",
       "m_bIsSubnavMessage": true,
-      "m_flPhraseTopMarginOffset": 30.0
+      "m_flPhraseTopMarginOffset": 30.0,
+      "m_bPingWheelBindable": true
     },
     "Heading to Green Subnav": {
       "m_unPingWheelOptionID": 39,
@@ -319,7 +344,8 @@
       "m_strLabelToken": "#citadel_chatwheel_message_HeadedToGreen",
       "m_strIcon": "file://{images}/hud/ping/ping_icon_going_in.svg",
       "m_bIsSubnavMessage": true,
-      "m_flPhraseTopMarginOffset": 30.0
+      "m_flPhraseTopMarginOffset": 30.0,
+      "m_bPingWheelBindable": true
     },
     "Headed to Blue Subnav": {
       "m_unPingWheelOptionID": 40,
@@ -328,7 +354,8 @@
       "m_eLaneColor": "k_ELaneColor_Blue",
       "m_strMessageToken": "#citadel_chatwheel_message_HeadedToBlue",
       "m_strLabelToken": "#citadel_chatwheel_message_HeadedToBlue",
-      "m_flPhraseTopMarginOffset": 30.0
+      "m_flPhraseTopMarginOffset": 30.0,
+      "m_bPingWheelBindable": true
     },
     "Headed to Purple Subnav": {
       "m_unPingWheelOptionID": 41,
@@ -337,7 +364,8 @@
       "m_eLaneColor": "k_ELaneColor_Purple",
       "m_strMessageToken": "#citadel_chatwheel_message_HeadedToPurple",
       "m_strLabelToken": "#citadel_chatwheel_message_HeadedToPurple",
-      "m_flPhraseTopMarginOffset": 30.0
+      "m_flPhraseTopMarginOffset": 30.0,
+      "m_bPingWheelBindable": true
     },
     "Headed to Lane": {
       "m_unPingWheelOptionID": 42,
@@ -362,7 +390,8 @@
       "m_strMessageToken": "#ping_help_with_idol_message",
       "m_strLabelToken": "#ping_help_with_idol_label",
       "m_bBindable": true,
-      "m_ePingWheelSoundType": "CITADEL_PING_WHEEL_SOUND_MAP_PING"
+      "m_ePingWheelSoundType": "CITADEL_PING_WHEEL_SOUND_MAP_PING",
+      "m_bPingWheelBindable": true
     },
     "You're Welcome": {
       "m_unPingWheelOptionID": 44,
@@ -372,7 +401,8 @@
       "m_strMessageToken": "#ping_youre_welcome",
       "m_bBindable": true,
       "m_ePingWheelSoundType": "CITADEL_PING_WHEEL_SOUND_NONE",
-      "m_flPhraseTopMarginOffset": 30.0
+      "m_flPhraseTopMarginOffset": 30.0,
+      "m_bPingWheelBindable": true
     },
     "Sorry": {
       "m_unPingWheelOptionID": 45,
@@ -380,7 +410,8 @@
       "m_strLabelToken": "#ping_sorry",
       "m_strMessageToken": "#ping_sorry",
       "m_bBindable": true,
-      "m_flPhraseTopMarginOffset": 40.0
+      "m_flPhraseTopMarginOffset": 40.0,
+      "m_bPingWheelBindable": true
     }
   }
 }

@@ -549,7 +549,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -1157,7 +1158,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -1807,7 +1809,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -2462,7 +2465,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 20.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -3108,7 +3112,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -3231,7 +3236,7 @@
         "EWeaponPowerScale": 1,
         "EProcBuildUpRateScale": 1,
         "EStamina": 3,
-        "EBaseHealthRegen": 1.0,
+        "EBaseHealthRegen": 1.5,
         "EStaminaRegenPerSecond": 0.2,
         "EAbilityResourceMax": 0,
         "EAbilityResourceRegenPerSecond": 0,
@@ -3751,7 +3756,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 34.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -3814,7 +3820,7 @@
       "m_strSelectionImage": "file://{images}/heroes/bull.psd",
       "m_strIconImageSmall": "file://{images}/heroes/bull_sm.psd",
       "m_strMinimapImage": "file://{images}/heroes/bull_mm.psd",
-      "m_strWIPModelName": "models/heroes_staging/atlas_detective_v2/atlas_detective.vmdl",
+      "m_strWIPModelName": "models/heroes_wip/abrams/abrams.vmdl",
       "m_strDeathSound": "Abrams.Death",
       "m_bNewPlayerRecommended": true,
       "m_bLaneTestingRecommended": false,
@@ -4418,7 +4424,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -5064,7 +5071,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -5129,7 +5137,7 @@
       "m_strSelectionImage": "file://{images}/heroes/engineer.psd",
       "m_strIconImageSmall": "file://{images}/heroes/engineer_sm.psd",
       "m_strMinimapImage": "file://{images}/heroes/engineer_mm.psd",
-      "m_strWIPModelName": "models/heroes_wip/mcginnis/mcginnis_model.vmdl",
+      "m_strWIPModelName": "models/heroes_wip/mcginnis/mcginnis.vmdl",
       "m_strDeathSound": "Forge.Death",
       "m_hGameSoundEventScript": "soundevents/hero/forge.vsndevts",
       "m_strRosterSelectedSound": "McGinnis.VO.HeroPick",
@@ -5712,7 +5720,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 40.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -6352,7 +6361,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 1.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -6994,7 +7004,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 50.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -7643,7 +7654,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 27.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -8287,7 +8299,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -8914,6 +8927,7 @@
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
         "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 1.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1,
         "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 77.334084
       },
       "m_eAbilityResourceType": "EResourceType_None",
@@ -9579,7 +9593,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -10229,10 +10244,11 @@
       "m_mapStandardLevelUpUpgrades": {
         "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.62,
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
-        "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 27.0,
+        "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -10878,7 +10894,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -11522,7 +11539,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_Rage",
       "m_ShopStatDisplay": {
@@ -12168,12 +12186,13 @@
         }
       },
       "m_mapStandardLevelUpUpgrades": {
-        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.36,
+        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.34,
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -12815,7 +12834,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -13394,11 +13414,11 @@
       "m_mapScalingStats": {
         "ERoundsPerSecond": {
           "eScalingStat": "ETechPower",
-          "flScale": 0.012
+          "flScale": 0.01
         },
         "EFireRate": {
           "eScalingStat": "ETechPower",
-          "flScale": 0.3
+          "flScale": 0.25
         }
       },
       "m_heroStatsDisplay": {
@@ -13443,7 +13463,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -14091,7 +14112,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -14737,7 +14759,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -15377,7 +15400,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 38.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -15515,7 +15539,7 @@
       "m_flCollisionHeight": 80,
       "m_flStepHeight": 32,
       "m_mapBoundAbilities": {
-        "ESlot_Weapon_Primary": "citadel_weapon_gunslinger_set",
+        "ESlot_Weapon_Primary": "citadel_weapon_gunslinger2_set",
         "ESlot_Weapon_Melee": "citadel_ability_melee_gunslinger",
         "ESlot_Ability_Mantle": "citadel_ability_mantle",
         "ESlot_Ability_Jump": "citadel_ability_jump",
@@ -15526,10 +15550,10 @@
         "ESlot_Ability_Innate_1": "citadel_ability_dash",
         "ESlot_Ability_Innate_2": "citadel_ability_sprint",
         "ESlot_Ability_Innate_3": "citadel_ability_melee_parry",
-        "ESlot_Signature_1": "gunslinger_rapid_fire",
-        "ESlot_Signature_2": "gunslinger_rocket_launcher",
-        "ESlot_Signature_3": "gunslinger_tenacity",
-        "ESlot_Signature_4": "gunslinger_sleep_bomb"
+        "ESlot_Signature_1": "citadel_ability_chrono_pulse_grenade",
+        "ESlot_Signature_2": "ability_gunslinger_spreadingfire",
+        "ESlot_Signature_3": "ability_empowerbullet",
+        "ESlot_Signature_4": "ability_gunslinger_salvo"
       },
       "m_mapItemSlotInfo": {
         "EItemSlotType_WeaponMod": {
@@ -16016,12 +16040,13 @@
         }
       },
       "m_mapStandardLevelUpUpgrades": {
-        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
+        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.49286,
         "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -16083,7 +16108,8 @@
       "m_strMinimapImage": "file://{images}/heroes/gunslinger_mm.psd",
       "m_strDeathSound": "Player.DeathFemale",
       "m_hGameSoundEventScript": "soundevents/game_sounds_heroes/game_sounds_hero_gunslinger.vsndevts",
-      "m_strIconHeroCard": "file://{images}/heroes/gunslinger_sm.psd"
+      "m_strIconHeroCard": "file://{images}/heroes/gunslinger_sm.psd",
+      "m_bAvailableInHeroLabs": false
     },
     "hero_yakuza": {
       "_class": "CitadelHeroData_t",
@@ -16636,7 +16662,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -17252,7 +17279,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -17867,7 +17895,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -17991,7 +18020,7 @@
         "ESlot_Signature_1": "ability_wrecking_ball",
         "ESlot_Signature_2": "ability_wrecker_salvage",
         "ESlot_Signature_3": "ability_scrap_blast",
-        "ESlot_Signature_4": "ability_wrecker_teleport"
+        "ESlot_Signature_4": "citadel_ability_wrecker_garbage_suck"
       },
       "m_mapItemSlotInfo": {
         "EItemSlotType_WeaponMod": {
@@ -18483,7 +18512,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -18554,27 +18584,27 @@
       "m_strUIPortraitMap": "maps/ui/hero_prefabs/wrecker.vmap",
       "m_RecommendedUpgrades": {
         "0": "upgrade_improved_spirit",
-        "1": "upgrade_clip_size",
-        "2": "upgrade_extra_charge",
-        "3": "upgrade_health",
-        "4": "upgrade_endurance",
-        "5": "upgrade_quick_silver",
-        "6": "upgrade_vampire",
-        "7": "upgrade_crackshot",
-        "8": "upgrade_magic_tempo",
-        "9": "upgrade_magic_shield",
-        "10": "upgrade_regenerating_bullet_shield",
-        "11": "upgrade_long_range",
-        "12": "upgrade_quick_silver",
-        "13": "upgrade_magic_storm",
-        "14": "upgrade_soaring_spirit",
-        "15": "upgrade_rapid_recharge",
-        "16": "upgrade_cooldown_reduction",
-        "17": "upgrade_chonky",
-        "18": "upgrade_titan_round",
-        "19": "upgrade_armor_reduction_debuff",
-        "20": "upgrade_mega_spirit",
-        "21": "upgrade_damage_recycler"
+        "1": "upgrade_non_player_bonus",
+        "2": "upgrade_close_range",
+        "3": "upgrade_resilience",
+        "4": "upgrade_magic_burst",
+        "5": "upgrade_crackshot",
+        "6": "upgrade_tech_defense_shredders",
+        "7": "upgrade_magic_shield",
+        "8": "upgrade_regenerating_bullet_shield",
+        "9": "upgrade_suppressor",
+        "10": "upgrade_magic_vulnerability",
+        "11": "upgrade_magic_shock",
+        "12": "upgrade_soaring_spirit",
+        "13": "upgrade_magic_slow",
+        "14": "upgrade_rapid_recharge",
+        "15": "upgrade_chonky",
+        "16": "upgrade_escalating_exposure",
+        "17": "upgrade_mega_spirit",
+        "18": "upgrade_damage_recycler",
+        "19": "upgrade_healing_booster",
+        "20": "upgrade_diviners_kevlar",
+        "21": "upgrade_cold_front"
       },
       "m_strTopBarVertical": "file://{images}/heroes/wrecker_vertical.psd",
       "m_strUIShoppingMap": "maps/ui/hero_shop/wrecker_shop.vmap",
@@ -19131,7 +19161,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -19748,7 +19779,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -20391,7 +20423,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -20512,8 +20545,8 @@
         "ESlot_Ability_Innate_1": "citadel_ability_dash",
         "ESlot_Ability_Innate_2": "citadel_ability_sprint",
         "ESlot_Ability_Innate_3": "citadel_ability_melee_parry",
-        "ESlot_Signature_1": "mirage_tornado",
-        "ESlot_Signature_2": "mirage_fire_beetles",
+        "ESlot_Signature_1": "mirage_fire_beetles",
+        "ESlot_Signature_2": "mirage_tornado",
         "ESlot_Signature_3": "mirage_sand_phantom",
         "ESlot_Signature_4": "mirage_teleport"
       },
@@ -21007,7 +21040,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 37.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -21651,7 +21685,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 36.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -21719,7 +21754,8 @@
       "m_strUIPortraitMap": "maps/ui/hero_prefabs/slork.vmap",
       "m_hGameSoundEventScript": "soundevents/hero/slork.vsndevts",
       "m_strRosterSelectedSound": "Slork.VO.HeroPick",
-      "m_strRosterRemovedSound": "Slork.VO.HeroRemove"
+      "m_strRosterRemovedSound": "Slork.VO.HeroRemove",
+      "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_slork.vsndevts"
     },
     "hero_cadence": {
       "_class": "CitadelHeroData_t",
@@ -22272,7 +22308,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -22888,7 +22925,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -23504,7 +23542,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -24114,7 +24153,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -24232,7 +24272,7 @@
         "ESlot_Signature_1": "ability_viper_debuffdagger",
         "ESlot_Signature_2": "ability_viper_venom",
         "ESlot_Signature_3": "ability_viper_snakedash",
-        "ESlot_Signature_4": "ability_viper_ult"
+        "ESlot_Signature_4": "ability_viper_petrifybola"
       },
       "m_mapItemSlotInfo": {
         "EItemSlotType_WeaponMod": {
@@ -24729,7 +24769,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -24798,8 +24839,8 @@
       "m_hGameSoundEventScript": "soundevents/hero/kali.vsndevts",
       "m_strIconHeroCard": "file://{images}/heroes/kali_card.psd",
       "m_strTopBarImage": "file://{images}/hud/hero_portraits/kali_hud.psd",
-      "m_strRosterRemovedSound": "Kali.VO.HeroRemove",
-      "m_strRosterSelectedSound": "Kali.VO.HeroPick",
+      "m_strRosterRemovedSound": "",
+      "m_strRosterSelectedSound": "Viper.VO.HeroPick",
       "m_strUIPortraitMap": "maps/ui/hero_prefabs/tengu.vmap",
       "m_RecommendedUpgrades": {
         "0": "upgrade_endurance",
@@ -25373,7 +25414,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -26018,7 +26060,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -26083,9 +26126,9 @@
       "m_strMinimapImage": "file://{images}/heroes/magician_mm.psd",
       "m_strDeathSound": "Gigawatt.Death",
       "m_hGameSoundEventScript": "soundevents/hero/gigawatt.vsndevts",
-      "m_strRosterSelectedSound": "Gigawatt.VO.HeroPick",
+      "m_strRosterSelectedSound": "Magician.VO.HeroPick",
       "m_strIconHeroCard": "file://{images}/heroes/magician_card.psd",
-      "m_strRosterRemovedSound": "Gigawatt.VO.HeroRemove",
+      "m_strRosterRemovedSound": "",
       "m_strTopBarImage": "file://{images}/hud/hero_portraits/magician_hud.psd",
       "m_strUIPortraitMap": "maps/ui/hero_prefabs/gigawatt.vmap",
       "m_RecommendedUpgrades": {
@@ -26110,7 +26153,7 @@
       "m_strTopBarVertical": "file://{images}/heroes/magician_vertical.psd",
       "m_strUIShopAnimGraph": "models/heroes_staging/magician/ui_shop_magician.vanmgrph",
       "m_strUIShoppingMap": "maps/ui/hero_shop/gigawatt_shop.vmap",
-      "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_gigawatt.vsndevts"
+      "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_magician.vsndevts"
     },
     "hero_trapper": {
       "_class": "CitadelHeroData_t",
@@ -26664,7 +26707,8 @@
         "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
         "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
         "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
-        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
       },
       "m_eAbilityResourceType": "EResourceType_None",
       "m_ShopStatDisplay": {
@@ -26728,9 +26772,9 @@
       "m_strMinimapImage": "file://{images}/heroes/trapper_mm.psd",
       "m_strDeathSound": "Warden.Death",
       "m_hGameSoundEventScript": "soundevents/hero/warden.vsndevts",
-      "m_strRosterSelectedSound": "Warden.VO.HeroPick",
+      "m_strRosterSelectedSound": "Trapper.VO.HeroPick",
       "m_strIconHeroCard": "file://{images}/heroes/trapper_card.psd",
-      "m_strRosterRemovedSound": "Warden.VO.HeroRemove",
+      "m_strRosterRemovedSound": "",
       "m_strTopBarImage": "file://{images}/hud/hero_portraits/trapper_hud.psd",
       "m_RecommendedUpgrades": {
         "0": "upgrade_medic_bullets",
@@ -26755,8 +26799,631 @@
       "m_strUIPortraitMap": "maps/ui/hero_prefabs/warden.vmap",
       "m_strTopBarVertical": "file://{images}/heroes/trapper_vertical.psd",
       "m_strUIShoppingMap": "maps/ui/hero_shop/warden_shop.vmap",
-      "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_warden.vsndevts",
-      "m_bAvailableInHeroLabs": true
+      "m_bAvailableInHeroLabs": true,
+      "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_trapper.vsndevts"
+    },
+    "hero_operative": {
+      "_class": "CitadelHeroData_t",
+      "m_bPlayerSelectable": false,
+      "m_bDisabled": false,
+      "m_bInDevelopment": true,
+      "m_bNeedsTesting": false,
+      "m_bAssignedPlayersOnly": false,
+      "m_bBotSelectable": false,
+      "m_bLimitedTesting": false,
+      "m_nComplexity": 2,
+      "m_nReadability": 1,
+      "m_HeroID": 62,
+      "m_strModelName": "models/heroes_staging/inferno_v4/inferno.vmdl",
+      "m_hDamageTakenParticle": "particles/generic/player_damage_screen.vpcf",
+      "m_hGroundDamageTakenParticle": "particles/generic/player_ground_damage_screen.vpcf",
+      "m_hDeathParticle": "particles/generic/player_death_screen.vpcf",
+      "m_hLowHealthParticle": "particles/generic/player_low_health_screen.vpcf",
+      "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
+      "m_nModelSkin": 0,
+      "m_mapStartingStats": {
+        "EMaxMoveSpeed": 7.3,
+        "ESprintSpeed": 0,
+        "ECrouchSpeed": 4.75,
+        "EMoveAcceleration": 4,
+        "ELightMeleeDamage": 63,
+        "EHeavyMeleeDamage": 116,
+        "EMaxHealth": 550,
+        "EWeaponPower": 0,
+        "EReloadSpeed": 1,
+        "EWeaponPowerScale": 1,
+        "EProcBuildUpRateScale": 1,
+        "EStamina": 3,
+        "EBaseHealthRegen": 2.0,
+        "EStaminaRegenPerSecond": 0.2,
+        "EAbilityResourceMax": 0,
+        "EAbilityResourceRegenPerSecond": 0,
+        "ECritDamageReceivedScale": 1.0,
+        "ETechDuration": 1,
+        "ETechRange": 1,
+        "ECritDamageBonusScale": 1.0
+      },
+      "m_flCollisionRadius": 20,
+      "m_flCollisionHeight": 80,
+      "m_flStepHeight": 32,
+      "m_mapBoundAbilities": {
+        "ESlot_Weapon_Primary": "citadel_weapon_operative_set",
+        "ESlot_Weapon_Melee": "ability_melee_inferno",
+        "ESlot_Ability_Mantle": "citadel_ability_mantle",
+        "ESlot_Ability_Jump": "citadel_ability_jump",
+        "ESlot_Ability_Slide": "citadel_ability_slide",
+        "ESlot_Ability_ZipLine": "citadel_ability_zip_line",
+        "ESlot_Ability_ZipLineBoost": "citadel_ability_zipline_boost",
+        "ESlot_Ability_ClimbRope": "citadel_ability_climb_rope",
+        "ESlot_Ability_Innate_1": "citadel_ability_dash",
+        "ESlot_Ability_Innate_2": "citadel_ability_sprint",
+        "ESlot_Ability_Innate_3": "citadel_ability_melee_parry",
+        "ESlot_Signature_1": "operative_scattercharge",
+        "ESlot_Signature_2": "ability_flame_dash",
+        "ESlot_Signature_3": "operative_blindside",
+        "ESlot_Signature_4": "ability_fire_bomb"
+      },
+      "m_mapItemSlotInfo": {
+        "EItemSlotType_WeaponMod": {
+          "m_arMaxPurchasesForTier": {
+            "0": 6,
+            "1": 6,
+            "2": 6
+          }
+        },
+        "EItemSlotType_Armor": {
+          "m_arMaxPurchasesForTier": {
+            "0": 6,
+            "1": 6,
+            "2": 6
+          }
+        },
+        "EItemSlotType_Tech": {
+          "m_arMaxPurchasesForTier": {
+            "0": 6,
+            "1": 6,
+            "2": 6
+          }
+        }
+      },
+      "m_mapPurchaseBonuses": {
+        "EItemSlotType_WeaponMod": {
+          "0": {
+            "m_nTier": 1,
+            "m_strValue": "6",
+            "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+          },
+          "1": {
+            "m_nTier": 2,
+            "m_strValue": "10",
+            "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+          },
+          "2": {
+            "m_nTier": 3,
+            "m_strValue": "14",
+            "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+          },
+          "3": {
+            "m_nTier": 4,
+            "m_strValue": "18",
+            "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+          }
+        },
+        "EItemSlotType_Armor": {
+          "0": {
+            "m_nTier": 1,
+            "m_strValue": "11",
+            "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+          },
+          "1": {
+            "m_nTier": 2,
+            "m_strValue": "14",
+            "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+          },
+          "2": {
+            "m_nTier": 3,
+            "m_strValue": "17",
+            "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+          },
+          "3": {
+            "m_nTier": 4,
+            "m_strValue": "20",
+            "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+          }
+        },
+        "EItemSlotType_Tech": {
+          "0": {
+            "m_nTier": 1,
+            "m_strValue": "4",
+            "m_ValueType": "MODIFIER_VALUE_TECH_POWER"
+          },
+          "1": {
+            "m_nTier": 2,
+            "m_strValue": "8",
+            "m_ValueType": "MODIFIER_VALUE_TECH_POWER"
+          },
+          "2": {
+            "m_nTier": 3,
+            "m_strValue": "12",
+            "m_ValueType": "MODIFIER_VALUE_TECH_POWER"
+          },
+          "3": {
+            "m_nTier": 4,
+            "m_strValue": "16",
+            "m_ValueType": "MODIFIER_VALUE_TECH_POWER"
+          }
+        }
+      },
+      "m_mapLevelInfo": {
+        "1": {
+          "m_unRequiredGold": 0,
+          "m_mapBonusCurrencies": {
+            "EAbilityUnlocks": 1
+          }
+        },
+        "2": {
+          "m_unRequiredGold": 400,
+          "m_mapBonusCurrencies": {
+            "EAbilityUnlocks": 1,
+            "EAbilityPoints": 1
+          }
+        },
+        "3": {
+          "m_unRequiredGold": 800,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "4": {
+          "m_unRequiredGold": 1200,
+          "m_bUseStandardUpgrade": true
+        },
+        "5": {
+          "m_unRequiredGold": 1500,
+          "m_mapBonusCurrencies": {
+            "EAbilityUnlocks": 1
+          }
+        },
+        "6": {
+          "m_unRequiredGold": 2200,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "7": {
+          "m_unRequiredGold": 3000,
+          "m_mapBonusCurrencies": {
+            "EAbilityUnlocks": 1
+          }
+        },
+        "8": {
+          "m_unRequiredGold": 3500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "9": {
+          "m_unRequiredGold": 4500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "10": {
+          "m_unRequiredGold": 5200,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "11": {
+          "m_unRequiredGold": 6000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "12": {
+          "m_unRequiredGold": 7500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "13": {
+          "m_unRequiredGold": 8000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "14": {
+          "m_unRequiredGold": 9000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "15": {
+          "m_unRequiredGold": 9700,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "16": {
+          "m_unRequiredGold": 10500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "17": {
+          "m_unRequiredGold": 11500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "18": {
+          "m_unRequiredGold": 12500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "19": {
+          "m_unRequiredGold": 14000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "20": {
+          "m_unRequiredGold": 15000,
+          "m_bUseStandardUpgrade": true
+        },
+        "21": {
+          "m_unRequiredGold": 16000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "22": {
+          "m_unRequiredGold": 17000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "23": {
+          "m_unRequiredGold": 18000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "24": {
+          "m_unRequiredGold": 19000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          },
+          "m_bUseStandardUpgrade": true
+        },
+        "25": {
+          "m_unRequiredGold": 21500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "26": {
+          "m_unRequiredGold": 23500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "27": {
+          "m_unRequiredGold": 25500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "28": {
+          "m_unRequiredGold": 27500,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "29": {
+          "m_unRequiredGold": 30000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "30": {
+          "m_unRequiredGold": 33000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "31": {
+          "m_unRequiredGold": 35000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "32": {
+          "m_unRequiredGold": 37000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "33": {
+          "m_unRequiredGold": 39000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "34": {
+          "m_unRequiredGold": 41000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "35": {
+          "m_unRequiredGold": 43000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "36": {
+          "m_unRequiredGold": 45000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        },
+        "37": {
+          "m_unRequiredGold": 47000,
+          "m_mapBonusCurrencies": {
+            "EAbilityPoints": 1
+          }
+        }
+      },
+      "m_hFootstepSounds": "sweetener_default",
+      "m_strFootstepSoundEventDefault": "Hero.Default.Footstep",
+      "m_flStealthSpeedMetersPerSecond": 4,
+      "m_flFootstepSoundTravelDistanceMeters": 20,
+      "m_flStepSoundTime": 0.3,
+      "m_vecAnimGraphDefaultValueOverrides": {
+        "0": {
+          "m_strParamName": "e_SWITCH_4wayRoll_ON/OFF",
+          "m_strParamValue": "0"
+        },
+        "1": {
+          "m_strParamName": "e_SWITCH_Recoil_ON/OFF",
+          "m_strParamValue": "0"
+        },
+        "2": {
+          "m_strParamName": "e_SWITCH_ZiplinePhysicsSway_ON/OFF",
+          "m_strParamValue": "0"
+        },
+        "3": {
+          "m_strParamName": "e_SWITCH_ShootStyle",
+          "m_strParamValue": "0"
+        }
+      },
+      "m_strLastHitSound": "LastHit.Default",
+      "m_strLowHealthSound": "PlayerAlert.LowHealth",
+      "m_colorUI": {
+        "0": 255,
+        "1": 255,
+        "2": 255
+      },
+      "m_colorGlowFriendly": {
+        "0": 255,
+        "1": 239,
+        "2": 215
+      },
+      "m_colorGlowEnemy": {
+        "0": 255,
+        "1": 0,
+        "2": 0
+      },
+      "m_colorGlowTeam1": {
+        "0": 231,
+        "1": 182,
+        "2": 89
+      },
+      "m_colorGlowTeam2": {
+        "0": 91,
+        "1": 121,
+        "2": 230
+      },
+      "m_vecAmbientParticleSettings": {
+        "0": {
+          "m_eAttachmentType": "PATTACH_ABSORIGIN_FOLLOW",
+          "m_nCP": 0
+        },
+        "1": {
+          "m_nCP": 1,
+          "m_eAttachmentType": "PATTACH_POINT_FOLLOW",
+          "m_strAttachmentName": "ability_apply"
+        }
+      },
+      "m_heroStatsUI": {
+        "m_vecDisplayStats": {
+          "0": {
+            "m_eStatType": "EMaxHealth",
+            "m_eStatCategory": "ECitadelStat_Vitality"
+          },
+          "1": {
+            "m_eStatType": "EBaseHealthRegen",
+            "m_eStatCategory": "ECitadelStat_Vitality"
+          },
+          "2": {
+            "m_eStatType": "EBulletArmorDamageReduction",
+            "m_eStatCategory": "ECitadelStat_Vitality"
+          },
+          "3": {
+            "m_eStatType": "ETechArmorDamageReduction",
+            "m_eStatCategory": "ECitadelStat_Vitality"
+          },
+          "4": {
+            "m_eStatType": "ETechPower",
+            "m_eStatCategory": "ECitadelStat_Spirit"
+          },
+          "5": {
+            "m_eStatCategory": "ECitadelStat_Weapon",
+            "m_eStatType": "EWeaponDPS"
+          },
+          "6": {
+            "m_eStatType": "EBulletDamage",
+            "m_eStatCategory": "ECitadelStat_Weapon"
+          },
+          "7": {
+            "m_eStatType": "EClipSize",
+            "m_eStatCategory": "ECitadelStat_Weapon"
+          },
+          "8": {
+            "m_eStatType": "ERoundsPerSecond",
+            "m_eStatCategory": "ECitadelStat_Weapon"
+          },
+          "9": {
+            "m_eStatType": "ELightMeleeDamage",
+            "m_eStatCategory": "ECitadelStat_Weapon"
+          },
+          "10": {
+            "m_eStatType": "EHeavyMeleeDamage",
+            "m_eStatCategory": "ECitadelStat_Weapon"
+          },
+          "11": {
+            "m_eStatType": "EMaxMoveSpeed",
+            "m_eStatCategory": "ECitadelStat_Vitality"
+          },
+          "12": {
+            "m_eStatType": "ESprintSpeed",
+            "m_eStatCategory": "ECitadelStat_Vitality"
+          },
+          "13": {
+            "m_eStatType": "EStamina",
+            "m_eStatCategory": "ECitadelStat_Vitality"
+          }
+        },
+        "m_eWeaponStatDisplay": "EMeleeDamage_DEPRECATED"
+      },
+      "m_mapScalingStats": {},
+      "m_heroStatsDisplay": {
+        "m_vecHealthHeaderStats": {
+          "0": "EMaxHealth",
+          "1": "EBaseHealthRegen"
+        },
+        "m_vecHealthStats": {
+          "0": "EBulletArmorDamageReduction",
+          "1": "ETechArmorDamageReduction",
+          "2": "EBulletShieldHealth",
+          "3": "ETechShieldHealth",
+          "4": "EBulletLifesteal",
+          "5": "ETechLifesteal",
+          "6": "EMaxMoveSpeed",
+          "7": "ESprintSpeed",
+          "8": "EStamina",
+          "9": "EHealingOutput"
+        },
+        "m_vecWeaponHeaderStats": {
+          "0": "EWeaponDPS",
+          "1": "EBulletDamage"
+        },
+        "m_vecWeaponStats": {
+          "0": "ELightMeleeDamage",
+          "1": "EHeavyMeleeDamage",
+          "2": "EFireRate",
+          "3": "EClipSize"
+        },
+        "m_vecMagicHeaderStats": {
+          "0": "ETechPower"
+        },
+        "m_vecMagicStats": {
+          "0": "ETechCooldown",
+          "1": "ETechRange",
+          "2": "ETechDuration"
+        }
+      },
+      "m_mapStandardLevelUpUpgrades": {
+        "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.282857,
+        "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
+        "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
+        "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
+        "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
+        "MODIFIER_VALUE_BOON_COUNT": 1
+      },
+      "m_eAbilityResourceType": "EResourceType_None",
+      "m_ShopStatDisplay": {
+        "m_eWeaponStatsDisplay": {
+          "m_vecDisplayStats": {
+            "0": "EBulletDamage",
+            "1": "EBaseWeaponDamageIncrease",
+            "2": "ERoundsPerSecond",
+            "3": "EFireRate",
+            "4": "EClipSize",
+            "5": "EClipSizeIncrease",
+            "6": "EReloadTime",
+            "7": "EReloadSpeed",
+            "8": "EBulletSpeed",
+            "9": "EBulletSpeedIncrease",
+            "10": "EBulletLifesteal",
+            "11": "ECritDamageBonusScale"
+          },
+          "m_vecOtherDisplayStats": {
+            "0": "ELightMeleeDamage",
+            "1": "EHeavyMeleeDamage"
+          }
+        },
+        "m_eVitalityStatsDisplay": {
+          "m_vecDisplayStats": {
+            "0": "EMaxHealth",
+            "1": "EBaseHealthRegen",
+            "2": "EBulletArmorDamageReduction",
+            "3": "ETechArmorDamageReduction",
+            "4": "EBulletShieldHealth",
+            "5": "ETechShieldHealth",
+            "6": "EMeleeResist",
+            "7": "EHealingOutput",
+            "8": "EDebuffResist",
+            "9": "ECritDamageReceivedScale"
+          },
+          "m_vecOtherDisplayStats": {
+            "0": "EMaxMoveSpeed",
+            "1": "ESprintSpeed",
+            "2": "EStaminaCooldown",
+            "3": "EStaminaRegenIncrease",
+            "4": "EStamina"
+          }
+        },
+        "m_eSpiritStatsDisplay": {
+          "m_vecDisplayStats": {
+            "0": "ETechCooldown",
+            "1": "ETechDuration",
+            "2": "ETechRange",
+            "3": "ETechLifesteal",
+            "4": "EMaxChargesIncrease",
+            "5": "ETechCooldownBetweenChargeUses"
+          }
+        }
+      },
+      "_base": "hero_base",
+      "m_bAvailableInHeroLabs": true,
+      "m_strWIPModelName": "models/heroes_staging/inferno_v4/inferno.vmdl",
+      "m_strSelectionImage": "file://{images}/heroes/inferno.psd",
+      "m_strIconImageSmall": "file://{images}/heroes/inferno_sm.psd",
+      "m_strMinimapImage": "file://{images}/heroes/inferno_mm.psd",
+      "m_strIconHeroCard": "file://{images}/heroes/inferno_card.psd",
+      "m_strTopBarImage": "file://{images}/hud/hero_portraits/inferno_hud.psd",
+      "m_strUIAnimGraph": "models/heroes_staging/viper/ui_viper.vanmgrph",
+      "m_strUIShopAnimGraph": "models/heroes_staging/viper/ui_shop_viper.vanmgrph",
+      "m_strUIPortraitMap": "maps/ui/hero_prefabs/inferno.vmap",
+      "m_strUIShoppingMap": "maps/ui/hero_shop/inferno_shop.vmap",
+      "m_strDeathSound": "Hero.Death",
+      "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_operative.vsndevts"
     }
   }
 }
